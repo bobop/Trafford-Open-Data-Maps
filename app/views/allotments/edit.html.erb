@@ -1,0 +1,36 @@
+<h1>Editing allotment</h1>
+
+<% form_for(@allotment) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :allotment_id %><br />
+    <%= f.text_field :allotment_id %>
+  </p>
+  <p>
+    <%= f.label :ref %><br />
+    <%= f.text_field :ref %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :area %><br />
+    <%= f.text_field :area %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @allotment %> |
+<%= link_to 'Back', allotments_path %>

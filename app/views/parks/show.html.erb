@@ -1,0 +1,43 @@
+<p>
+  <b>Name:</b>
+  <%=h @park.name %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%=h @park.location %>
+</p>
+
+<p>
+  <b>Park:</b>
+  <%=h @park.park_id %>
+</p>
+
+<p>
+  <b>Ref:</b>
+  <%=h @park.ref %>
+</p>
+
+<p>
+  <b>Area hectares:</b>
+  <%=h @park.area_hectares %>
+</p>
+
+<p>
+  <b>Park type:</b>
+  <%=h @park.park_type %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @park.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @park.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_park_path(@park) %> |
+<%= link_to 'Back', parks_path %>

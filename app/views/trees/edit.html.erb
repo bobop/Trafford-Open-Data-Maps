@@ -1,0 +1,44 @@
+<h1>Editing tree</h1>
+
+<% form_for(@tree) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :tree_ref %><br />
+    <%= f.text_field :tree_ref %>
+  </p>
+  <p>
+    <%= f.label :species %><br />
+    <%= f.text_field :species %>
+  </p>
+  <p>
+    <%= f.label :locality_name %><br />
+    <%= f.text_field :locality_name %>
+  </p>
+  <p>
+    <%= f.label :district_name %><br />
+    <%= f.text_field :district_name %>
+  </p>
+  <p>
+    <%= f.label :height %><br />
+    <%= f.text_field :height %>
+  </p>
+  <p>
+    <%= f.label :dbh %><br />
+    <%= f.text_field :dbh %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @tree %> |
+<%= link_to 'Back', trees_path %>

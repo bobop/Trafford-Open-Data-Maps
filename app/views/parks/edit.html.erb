@@ -1,0 +1,44 @@
+<h1>Editing park</h1>
+
+<% form_for(@park) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </p>
+  <p>
+    <%= f.label :park_id %><br />
+    <%= f.text_field :park_id %>
+  </p>
+  <p>
+    <%= f.label :ref %><br />
+    <%= f.text_field :ref %>
+  </p>
+  <p>
+    <%= f.label :area_hectares %><br />
+    <%= f.text_field :area_hectares %>
+  </p>
+  <p>
+    <%= f.label :park_type %><br />
+    <%= f.text_field :park_type %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @park %> |
+<%= link_to 'Back', parks_path %>

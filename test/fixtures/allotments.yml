@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  allotment_id: MyString
+  ref: MyString
+  name: MyString
+  area: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  allotment_id: MyString
+  ref: MyString
+  name: MyString
+  area: MyString
+  longitude: MyString
+  latitude: MyString

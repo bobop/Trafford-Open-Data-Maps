@@ -1,0 +1,33 @@
+<p>
+  <b>Allotment:</b>
+  <%=h @allotment.allotment_id %>
+</p>
+
+<p>
+  <b>Ref:</b>
+  <%=h @allotment.ref %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @allotment.name %>
+</p>
+
+<p>
+  <b>Area:</b>
+  <%=h @allotment.area %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @allotment.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @allotment.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_allotment_path(@allotment) %> |
+<%= link_to 'Back', allotments_path %>

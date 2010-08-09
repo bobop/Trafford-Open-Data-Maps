@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  location: MyString
+  park_id: MyString
+  ref: MyString
+  area_hectares: 1.5
+  park_type: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  name: MyString
+  location: MyString
+  park_id: MyString
+  ref: MyString
+  area_hectares: 1.5
+  park_type: MyString
+  longitude: MyString
+  latitude: MyString

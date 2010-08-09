@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @leisure_centre.name %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @leisure_centre.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @leisure_centre.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_leisure_centre_path(@leisure_centre) %> |
+<%= link_to 'Back', leisure_centres_path %>

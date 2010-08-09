@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  tree_ref: MyString
+  species: MyString
+  locality_name: MyString
+  district_name: MyString
+  height: 1.5
+  dbh: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  tree_ref: MyString
+  species: MyString
+  locality_name: MyString
+  district_name: MyString
+  height: 1.5
+  dbh: MyString
+  longitude: MyString
+  latitude: MyString

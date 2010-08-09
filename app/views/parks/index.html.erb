@@ -1,0 +1,34 @@
+<h1>Listing parks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Location</th>
+    <th>Park</th>
+    <th>Ref</th>
+    <th>Area hectares</th>
+    <th>Park type</th>
+    <th>Longitude</th>
+    <th>Latitude</th>
+  </tr>
+
+<% @parks.each do |park| %>
+  <tr>
+    <td><%=h park.name %></td>
+    <td><%=h park.location %></td>
+    <td><%=h park.park_id %></td>
+    <td><%=h park.ref %></td>
+    <td><%=h park.area_hectares %></td>
+    <td><%=h park.park_type %></td>
+    <td><%=h park.longitude %></td>
+    <td><%=h park.latitude %></td>
+    <td><%= link_to 'Show', park %></td>
+    <td><%= link_to 'Edit', edit_park_path(park) %></td>
+    <td><%= link_to 'Destroy', park, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New park', new_park_path %>

@@ -1,0 +1,1368 @@
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#import_data (for 127.0.0.1 at 2010-08-09 13:32:00) [GET]
+--- recycling_site_hash: facilitieslatitude53.3839locationSainsburysstreetLloyd StreetidALTSBYlongitude-2.3508townAltrinchamfacilitieslatitude53.4128locationThe HuntsmanstreetCatterick RoadidSALHNTlongitude-2.36042townSalefacilitieslatitude53.4685locationAsdastreetBarton Dock RoadidTRAASDlongitude-2.3455townTrafford Parkfacilitieslatitude53.4502locationUrmston Leisure CentrestreetBowfell RoadidURMULSlongitude-2.3712townUrmstonfacilitieslatitude53.4618locationCommunity Centre Car ParkstreetBlair StreetidOLDBSTlongitude-2.26227townOld Traffordfacilitieslatitude53.4618locationWhite City Retail ParkstreetChester RoadidOLDWCYlongitude-2.28351townOld Traffordfacilitieslatitude53.3986locationBaker Street Car ParkstreetBaker StreetidTIMBAKlongitude-2.31675townTimperleyfacilitieslatitude53.384locationWyevale Garden CentrestreetGreen LaneidTIMWYElongitude-2.32276townTimperleyfacilitieslatitude53.4657locationFourth Ave Car ParkstreetFourth AveidTRA4AVlongitude-2.31047townTrafford Parkfacilitieslatitude53.4442locationFlixton Railway Station Car ParkstreetFlixton RoadidURMFLIlongitude-2.38384townFlixtonfacilitieslatitude53.3792locationBrown Street Car ParkstreetBrown StreetidHALBSTlongitude-2.34775townHalefacilitieslatitude53.458locationGeorge Carnall Leisure CentrestreetKingsway ParkidURMGHClongitude-2.34281townDavyhulmefacilitieslatitude53.4401locationChester Road Household Waste and Recycling CentrestreetChester RoadidSTRCHRlongitude-2.31325townStretfordfacilitieslatitude53.4172locationAscot Avenue Car ParkstreetAscot AvenueidSALASClongitude-2.35697townSale Westfacilitieslatitude53.3792locationAssembly Rooms Car ParkstreetThe FirsidBOWJUBlongitude-2.36313townBowdonfacilitieslatitude53.4091locationSinderland Road Household Waste and Recycling CentrestreetSinderland RoadidALTSINlongitude-2.37394townAltrinchamfacilitieslatitude53.4663locationCornbrook Park Road Car ParkstreetAt the end of Malvern RowidOLDCPRlongitude-2.26478townOld Traffordfacilitieslatitude53.4619locationSeven SistersstreetDudley CloseidOLDDCLlongitude-2.25459townOld Traffordfacilitieslatitude53.4446locationManor Road Car ParkstreetManor RoadidURMMNAlongitude-2.3517townUrmstonfacilitieslatitude53.4563locationThe Thostles NeststreetSeymour GroveidOLDSGRlongitude-2.27513townOld Traffordfacilitieslatitude53.459locationGreenbank Road Car ParkstreetGreenbank RoadidASHGBRlongitude-2.28697townAshton-on-Merseyfacilitieslatitude53.4525locationWoodsend CirclestreetWoodsend CircleidURMWCPlongitude-2.39343townFlixtonfacilitieslatitude53.4215locationManor Avenue Playing Fields Car ParkstreetManor AvenueidSALFIRlongitude-2.35553townAshton-on-Merseyfacilitieslatitude53.4187locationCar Park behind Co-opstreetCentral RoadidPARCOOlongitude-2.4263townPartingtonfacilitieslatitude53.4038locationBeech AvenuestreetLangham GroveidTIMBEPlongitude-2.31996townTimperleyfacilitieslatitude53.4503locationPark Road North Car ParkstreetPark Road NorthidURMPRNlongitude-2.35598townUrmstonfacilitieslatitude53.4623locationBath CrescentstreetidOLDBCRlongitude-2.26979townOld Traffordfacilitieslatitude53.431locationSale Water ParkstreetRifle RoadidSALWTRlongitude-2.29891townSalefacilitieslatitude53.4151locationCommunity CentrestreetNorris RoadidSALNORlongitude-2.30473townSalefacilitieslatitude53.4417locationTurn moss fieldsstreetEdge LaneidSTRTMFlongitude-2.29367townStretfordfacilitieslatitude53.4497locationWardle Close FlatsstreetWardle CloseidSTRWRDlongitude-2.29921townStretfordfacilitieslatitude53.4566locationCircle CourtstreetBarton RoadidSTRCCTlongitude-2.33746townStretfordfacilitieslatitude53.4725locationB & QstreetRedclyffe RoadidTRABQlongitude-2.35009townTrafford Parkfacilitieslatitude53.447locationCar ParkstreetPennybridge LaneidURMPBLlongitude-2.37277townFlixtonfacilitieslatitude53.4552locationTrafford General HospitalstreetMoorside RoadidURMTGHlongitude-2.36992townDavyhulmefacilitieslatitude53.4632locationTrafford Retail ParkstreetNeary WayidURMTRPlongitude-2.35875townUrmstonfacilitieslatitude53.4573locationChrist ChurchstreetLostock RoadidURMCHRlongitude-2.34522townDavyhulme
+  [4;36;1mRecyclingSite Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+
+TypeError (can't convert String into Integer):
+  app/controllers/recycling_sites_controller.rb:98:in `[]'
+  app/controllers/recycling_sites_controller.rb:98:in `import_data'
+  app/controllers/recycling_sites_controller.rb:90:in `each'
+  app/controllers/recycling_sites_controller.rb:90:in `import_data'
+
+Rendered rescues/_trace (54.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#import_data (for 127.0.0.1 at 2010-08-09 13:33:21) [GET]
+--- recycling_site_hash: facilitieslatitude53.3839locationSainsburysstreetLloyd StreetidALTSBYlongitude-2.3508townAltrinchamfacilitieslatitude53.4128locationThe HuntsmanstreetCatterick RoadidSALHNTlongitude-2.36042townSalefacilitieslatitude53.4685locationAsdastreetBarton Dock RoadidTRAASDlongitude-2.3455townTrafford Parkfacilitieslatitude53.4502locationUrmston Leisure CentrestreetBowfell RoadidURMULSlongitude-2.3712townUrmstonfacilitieslatitude53.4618locationCommunity Centre Car ParkstreetBlair StreetidOLDBSTlongitude-2.26227townOld Traffordfacilitieslatitude53.4618locationWhite City Retail ParkstreetChester RoadidOLDWCYlongitude-2.28351townOld Traffordfacilitieslatitude53.3986locationBaker Street Car ParkstreetBaker StreetidTIMBAKlongitude-2.31675townTimperleyfacilitieslatitude53.384locationWyevale Garden CentrestreetGreen LaneidTIMWYElongitude-2.32276townTimperleyfacilitieslatitude53.4657locationFourth Ave Car ParkstreetFourth AveidTRA4AVlongitude-2.31047townTrafford Parkfacilitieslatitude53.4442locationFlixton Railway Station Car ParkstreetFlixton RoadidURMFLIlongitude-2.38384townFlixtonfacilitieslatitude53.3792locationBrown Street Car ParkstreetBrown StreetidHALBSTlongitude-2.34775townHalefacilitieslatitude53.458locationGeorge Carnall Leisure CentrestreetKingsway ParkidURMGHClongitude-2.34281townDavyhulmefacilitieslatitude53.4401locationChester Road Household Waste and Recycling CentrestreetChester RoadidSTRCHRlongitude-2.31325townStretfordfacilitieslatitude53.4172locationAscot Avenue Car ParkstreetAscot AvenueidSALASClongitude-2.35697townSale Westfacilitieslatitude53.3792locationAssembly Rooms Car ParkstreetThe FirsidBOWJUBlongitude-2.36313townBowdonfacilitieslatitude53.4091locationSinderland Road Household Waste and Recycling CentrestreetSinderland RoadidALTSINlongitude-2.37394townAltrinchamfacilitieslatitude53.4663locationCornbrook Park Road Car ParkstreetAt the end of Malvern RowidOLDCPRlongitude-2.26478townOld Traffordfacilitieslatitude53.4619locationSeven SistersstreetDudley CloseidOLDDCLlongitude-2.25459townOld Traffordfacilitieslatitude53.4446locationManor Road Car ParkstreetManor RoadidURMMNAlongitude-2.3517townUrmstonfacilitieslatitude53.4563locationThe Thostles NeststreetSeymour GroveidOLDSGRlongitude-2.27513townOld Traffordfacilitieslatitude53.459locationGreenbank Road Car ParkstreetGreenbank RoadidASHGBRlongitude-2.28697townAshton-on-Merseyfacilitieslatitude53.4525locationWoodsend CirclestreetWoodsend CircleidURMWCPlongitude-2.39343townFlixtonfacilitieslatitude53.4215locationManor Avenue Playing Fields Car ParkstreetManor AvenueidSALFIRlongitude-2.35553townAshton-on-Merseyfacilitieslatitude53.4187locationCar Park behind Co-opstreetCentral RoadidPARCOOlongitude-2.4263townPartingtonfacilitieslatitude53.4038locationBeech AvenuestreetLangham GroveidTIMBEPlongitude-2.31996townTimperleyfacilitieslatitude53.4503locationPark Road North Car ParkstreetPark Road NorthidURMPRNlongitude-2.35598townUrmstonfacilitieslatitude53.4623locationBath CrescentstreetidOLDBCRlongitude-2.26979townOld Traffordfacilitieslatitude53.431locationSale Water ParkstreetRifle RoadidSALWTRlongitude-2.29891townSalefacilitieslatitude53.4151locationCommunity CentrestreetNorris RoadidSALNORlongitude-2.30473townSalefacilitieslatitude53.4417locationTurn moss fieldsstreetEdge LaneidSTRTMFlongitude-2.29367townStretfordfacilitieslatitude53.4497locationWardle Close FlatsstreetWardle CloseidSTRWRDlongitude-2.29921townStretfordfacilitieslatitude53.4566locationCircle CourtstreetBarton RoadidSTRCCTlongitude-2.33746townStretfordfacilitieslatitude53.4725locationB & QstreetRedclyffe RoadidTRABQlongitude-2.35009townTrafford Parkfacilitieslatitude53.447locationCar ParkstreetPennybridge LaneidURMPBLlongitude-2.37277townFlixtonfacilitieslatitude53.4552locationTrafford General HospitalstreetMoorside RoadidURMTGHlongitude-2.36992townDavyhulmefacilitieslatitude53.4632locationTrafford Retail ParkstreetNeary WayidURMTRPlongitude-2.35875townUrmstonfacilitieslatitude53.4573locationChrist ChurchstreetLostock RoadidURMCHRlongitude-2.34522townDavyhulme
+  [4;36;1mRecyclingSite Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+--- facilities: 
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/recycling_sites_controller.rb:99:in `import_data'
+  app/controllers/recycling_sites_controller.rb:90:in `each'
+  app/controllers/recycling_sites_controller.rb:90:in `import_data'
+
+Rendered rescues/_trace (50.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#import_data (for 127.0.0.1 at 2010-08-09 13:37:23) [GET]
+--- recycling_site_hash: facilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+			Shoes,
+			Books,
+		latitude53.3839locationSainsburysstreetLloyd StreetidALTSBYlongitude-2.3508townAltrinchamfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Books,
+			TetraPak,
+		latitude53.4128locationThe HuntsmanstreetCatterick RoadidSALHNTlongitude-2.36042townSalefacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Textiles,
+			Shoes,
+			Books,
+		latitude53.4685locationAsdastreetBarton Dock RoadidTRAASDlongitude-2.3455townTrafford Parkfacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+			Shoes,
+		latitude53.4502locationUrmston Leisure CentrestreetBowfell RoadidURMULSlongitude-2.3712townUrmstonfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4618locationCommunity Centre Car ParkstreetBlair StreetidOLDBSTlongitude-2.26227townOld Traffordfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4618locationWhite City Retail ParkstreetChester RoadidOLDWCYlongitude-2.28351townOld Traffordfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Textiles,
+			Shoes,
+			Books,
+			TetraPak,
+		latitude53.3986locationBaker Street Car ParkstreetBaker StreetidTIMBAKlongitude-2.31675townTimperleyfacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+		latitude53.384locationWyevale Garden CentrestreetGreen LaneidTIMWYElongitude-2.32276townTimperleyfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4657locationFourth Ave Car ParkstreetFourth AveidTRA4AVlongitude-2.31047townTrafford Parkfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Textiles,
+			Shoes,
+			Books,
+			TetraPak,
+		latitude53.4442locationFlixton Railway Station Car ParkstreetFlixton RoadidURMFLIlongitude-2.38384townFlixtonfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Textiles,
+			Shoes,
+			Books,
+		latitude53.3792locationBrown Street Car ParkstreetBrown StreetidHALBSTlongitude-2.34775townHalefacilities
+			Paper,
+			Glass,
+			Cans,
+			Shoes,
+			TetraPak,
+		latitude53.458locationGeorge Carnall Leisure CentrestreetKingsway ParkidURMGHClongitude-2.34281townDavyhulmefacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+			Shoes,
+			Books,
+		latitude53.4401locationChester Road Household Waste and Recycling CentrestreetChester RoadidSTRCHRlongitude-2.31325townStretfordfacilities
+			Paper,
+			Glass,
+			Cans,
+			TetraPak,
+		latitude53.4172locationAscot Avenue Car ParkstreetAscot AvenueidSALASClongitude-2.35697townSale Westfacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+			Shoes,
+			TetraPak,
+		latitude53.3792locationAssembly Rooms Car ParkstreetThe FirsidBOWJUBlongitude-2.36313townBowdonfacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+			Shoes,
+		latitude53.4091locationSinderland Road Household Waste and Recycling CentrestreetSinderland RoadidALTSINlongitude-2.37394townAltrinchamfacilities
+			Paper,
+			Glass,
+			Cans,
+			TetraPak,
+		latitude53.4663locationCornbrook Park Road Car ParkstreetAt the end of Malvern RowidOLDCPRlongitude-2.26478townOld Traffordfacilities
+			Paper,
+			Glass,
+			Cans,
+			TetraPak,
+		latitude53.4619locationSeven SistersstreetDudley CloseidOLDDCLlongitude-2.25459townOld Traffordfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4446locationManor Road Car ParkstreetManor RoadidURMMNAlongitude-2.3517townUrmstonfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4563locationThe Thostles NeststreetSeymour GroveidOLDSGRlongitude-2.27513townOld Traffordfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.459locationGreenbank Road Car ParkstreetGreenbank RoadidASHGBRlongitude-2.28697townAshton-on-Merseyfacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+			Shoes,
+		latitude53.4525locationWoodsend CirclestreetWoodsend CircleidURMWCPlongitude-2.39343townFlixtonfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Shoes,
+			Books,
+			TetraPak,
+		latitude53.4215locationManor Avenue Playing Fields Car ParkstreetManor AvenueidSALFIRlongitude-2.35553townAshton-on-Merseyfacilities
+			Paper,
+			Glass,
+			Cans,
+			TetraPak,
+		latitude53.4187locationCar Park behind Co-opstreetCentral RoadidPARCOOlongitude-2.4263townPartingtonfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4038locationBeech AvenuestreetLangham GroveidTIMBEPlongitude-2.31996townTimperleyfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4503locationPark Road North Car ParkstreetPark Road NorthidURMPRNlongitude-2.35598townUrmstonfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4623locationBath CrescentstreetidOLDBCRlongitude-2.26979townOld Traffordfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.431locationSale Water ParkstreetRifle RoadidSALWTRlongitude-2.29891townSalefacilities
+			Paper,
+			Glass,
+			Cans,
+			TetraPak,
+		latitude53.4151locationCommunity CentrestreetNorris RoadidSALNORlongitude-2.30473townSalefacilities
+			Paper,
+			Glass,
+			Cans,
+			TetraPak,
+		latitude53.4417locationTurn moss fieldsstreetEdge LaneidSTRTMFlongitude-2.29367townStretfordfacilities
+			Paper,
+			Glass,
+			Cans,
+			Textiles,
+		latitude53.4497locationWardle Close FlatsstreetWardle CloseidSTRWRDlongitude-2.29921townStretfordfacilities
+			Paper,
+			Glass,
+			Cans,
+			Shoes,
+		latitude53.4566locationCircle CourtstreetBarton RoadidSTRCCTlongitude-2.33746townStretfordfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			TetraPak,
+		latitude53.4725locationB & QstreetRedclyffe RoadidTRABQlongitude-2.35009townTrafford Parkfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.447locationCar ParkstreetPennybridge LaneidURMPBLlongitude-2.37277townFlixtonfacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4552locationTrafford General HospitalstreetMoorside RoadidURMTGHlongitude-2.36992townDavyhulmefacilities
+			Paper,
+			Glass,
+			Cans,
+		latitude53.4632locationTrafford Retail ParkstreetNeary WayidURMTRPlongitude-2.35875townUrmstonfacilities
+			Paper,
+			Glass,
+			Cans,
+			Plastic,
+			Textiles,
+			Shoes,
+			TetraPak,
+		latitude53.4573locationChrist ChurchstreetLostock RoadidURMCHRlongitude-2.34522townDavyhulme
+  [4;36;1mRecyclingSite Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Sainsburys', '53.3839', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n			Shoes,\n			Books,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Lloyd Street', '-2.3508', 'Altrincham', 'ALTSBY')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('The Huntsman', '53.4128', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Books,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Catterick Road', '-2.36042', 'Sale', 'SALHNT')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Asda', '53.4685', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Textiles,\n			Shoes,\n			Books,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Barton Dock Road', '-2.3455', 'Trafford Park', 'TRAASD')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Urmston Leisure Centre', '53.4502', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n			Shoes,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Bowfell Road', '-2.3712', 'Urmston', 'URMULS')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Community Centre Car Park', '53.4618', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Blair Street', '-2.26227', 'Old Trafford', 'OLDBST')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('White City Retail Park', '53.4618', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Chester Road', '-2.28351', 'Old Trafford', 'OLDWCY')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Baker Street Car Park', '53.3986', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Textiles,\n			Shoes,\n			Books,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Baker Street', '-2.31675', 'Timperley', 'TIMBAK')[0m
+  [4;35;1mSQL (22.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Wyevale Garden Centre', '53.384', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Green Lane', '-2.32276', 'Timperley', 'TIMWYE')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Fourth Ave Car Park', '53.4657', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Fourth Ave', '-2.31047', 'Trafford Park', 'TRA4AV')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Flixton Railway Station Car Park', '53.4442', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Textiles,\n			Shoes,\n			Books,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Flixton Road', '-2.38384', 'Flixton', 'URMFLI')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Brown Street Car Park', '53.3792', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Textiles,\n			Shoes,\n			Books,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Brown Street', '-2.34775', 'Hale', 'HALBST')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('George Carnall Leisure Centre', '53.458', '\n			Paper,\n			Glass,\n			Cans,\n			Shoes,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Kingsway Park', '-2.34281', 'Davyhulme', 'URMGHC')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Chester Road Household Waste and Recycling Centre', '53.4401', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n			Shoes,\n			Books,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Chester Road', '-2.31325', 'Stretford', 'STRCHR')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Ascot Avenue Car Park', '53.4172', '\n			Paper,\n			Glass,\n			Cans,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Ascot Avenue', '-2.35697', 'Sale West', 'SALASC')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Assembly Rooms Car Park', '53.3792', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n			Shoes,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'The Firs', '-2.36313', 'Bowdon', 'BOWJUB')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Sinderland Road Household Waste and Recycling Centre', '53.4091', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n			Shoes,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Sinderland Road', '-2.37394', 'Altrincham', 'ALTSIN')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Cornbrook Park Road Car Park', '53.4663', '\n			Paper,\n			Glass,\n			Cans,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'At the end of Malvern Row', '-2.26478', 'Old Trafford', 'OLDCPR')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Seven Sisters', '53.4619', '\n			Paper,\n			Glass,\n			Cans,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Dudley Close', '-2.25459', 'Old Trafford', 'OLDDCL')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Manor Road Car Park', '53.4446', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Manor Road', '-2.3517', 'Urmston', 'URMMNA')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (1.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('The Thostles Nest', '53.4563', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Seymour Grove', '-2.27513', 'Old Trafford', 'OLDSGR')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Greenbank Road Car Park', '53.459', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Greenbank Road', '-2.28697', 'Ashton-on-Mersey', 'ASHGBR')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Woodsend Circle', '53.4525', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n			Shoes,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Woodsend Circle', '-2.39343', 'Flixton', 'URMWCP')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Manor Avenue Playing Fields Car Park', '53.4215', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Shoes,\n			Books,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Manor Avenue', '-2.35553', 'Ashton-on-Mersey', 'SALFIR')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Car Park behind Co-op', '53.4187', '\n			Paper,\n			Glass,\n			Cans,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Central Road', '-2.4263', 'Partington', 'PARCOO')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Beech Avenue', '53.4038', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Langham Grove', '-2.31996', 'Timperley', 'TIMBEP')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Park Road North Car Park', '53.4503', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Park Road North', '-2.35598', 'Urmston', 'URMPRN')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Bath Crescent', '53.4623', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', NULL, '-2.26979', 'Old Trafford', 'OLDBCR')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Sale Water Park', '53.431', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Rifle Road', '-2.29891', 'Sale', 'SALWTR')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.4ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Community Centre', '53.4151', '\n			Paper,\n			Glass,\n			Cans,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Norris Road', '-2.30473', 'Sale', 'SALNOR')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Turn moss fields', '53.4417', '\n			Paper,\n			Glass,\n			Cans,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Edge Lane', '-2.29367', 'Stretford', 'STRTMF')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.4ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Wardle Close Flats', '53.4497', '\n			Paper,\n			Glass,\n			Cans,\n			Textiles,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Wardle Close', '-2.29921', 'Stretford', 'STRWRD')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Circle Court', '53.4566', '\n			Paper,\n			Glass,\n			Cans,\n			Shoes,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Barton Road', '-2.33746', 'Stretford', 'STRCCT')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('B & Q', '53.4725', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Redclyffe Road', '-2.35009', 'Trafford Park', 'TRABQ')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Car Park', '53.447', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Pennybridge Lane', '-2.37277', 'Flixton', 'URMPBL')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Trafford General Hospital', '53.4552', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Moorside Road', '-2.36992', 'Davyhulme', 'URMTGH')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Trafford Retail Park', '53.4632', '\n			Paper,\n			Glass,\n			Cans,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Neary Way', '-2.35875', 'Urmston', 'URMTRP')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Christ Church', '53.4573', '\n			Paper,\n			Glass,\n			Cans,\n			Plastic,\n			Textiles,\n			Shoes,\n			TetraPak,\n		', '2010-08-09 12:37:24', '2010-08-09 12:37:24', 'Lostock Road', '-2.34522', 'Davyhulme', 'URMCHR')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/recycling_sites
+Completed in 355ms (DB: 59) | 302 Found [http://localhost/recycling_sites/import_data]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#index (for 127.0.0.1 at 2010-08-09 13:37:24) [GET]
+  [4;35;1mRecyclingSite Load (0.8ms)[0m   [0mSELECT * FROM `recycling_sites` [0m
+Rendering template within layouts/recycling_sites
+Rendering recycling_sites/index
+  [4;36;1mRecyclingSite Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+Completed in 280ms (View: 270, DB: 3) | 200 OK [http://localhost/recycling_sites]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#import_data (for 127.0.0.1 at 2010-08-09 13:39:07) [GET]
+--- recycling_site_hash: facilitiesPaper,Glass,Cans,Textiles,Shoes,Bookslatitude53.3839locationSainsburysstreetLloyd StreetidALTSBYlongitude-2.3508townAltrinchamfacilitiesPaper,Glass,Cans,Plastic,Books,TetraPaklatitude53.4128locationThe HuntsmanstreetCatterick RoadidSALHNTlongitude-2.36042townSalefacilitiesPaper,Glass,Cans,Plastic,Textiles,Shoes,Bookslatitude53.4685locationAsdastreetBarton Dock RoadidTRAASDlongitude-2.3455townTrafford ParkfacilitiesPaper,Glass,Cans,Textiles,Shoeslatitude53.4502locationUrmston Leisure CentrestreetBowfell RoadidURMULSlongitude-2.3712townUrmstonfacilitiesPaper,Glass,Canslatitude53.4618locationCommunity Centre Car ParkstreetBlair StreetidOLDBSTlongitude-2.26227townOld TraffordfacilitiesPaper,Glass,Canslatitude53.4618locationWhite City Retail ParkstreetChester RoadidOLDWCYlongitude-2.28351townOld TraffordfacilitiesPaper,Glass,Cans,Plastic,Textiles,Shoes,Books,TetraPaklatitude53.3986locationBaker Street Car ParkstreetBaker StreetidTIMBAKlongitude-2.31675townTimperleyfacilitiesPaper,Glass,Cans,Textileslatitude53.384locationWyevale Garden CentrestreetGreen LaneidTIMWYElongitude-2.32276townTimperleyfacilitiesPaper,Glass,Canslatitude53.4657locationFourth Ave Car ParkstreetFourth AveidTRA4AVlongitude-2.31047townTrafford ParkfacilitiesPaper,Glass,Cans,Plastic,Textiles,Shoes,Books,TetraPaklatitude53.4442locationFlixton Railway Station Car ParkstreetFlixton RoadidURMFLIlongitude-2.38384townFlixtonfacilitiesPaper,Glass,Cans,Plastic,Textiles,Shoes,Bookslatitude53.3792locationBrown Street Car ParkstreetBrown StreetidHALBSTlongitude-2.34775townHalefacilitiesPaper,Glass,Cans,Shoes,TetraPaklatitude53.458locationGeorge Carnall Leisure CentrestreetKingsway ParkidURMGHClongitude-2.34281townDavyhulmefacilitiesPaper,Glass,Cans,Textiles,Shoes,Bookslatitude53.4401locationChester Road Household Waste and Recycling CentrestreetChester RoadidSTRCHRlongitude-2.31325townStretfordfacilitiesPaper,Glass,Cans,TetraPaklatitude53.4172locationAscot Avenue Car ParkstreetAscot AvenueidSALASClongitude-2.35697townSale WestfacilitiesPaper,Glass,Cans,Textiles,Shoes,TetraPaklatitude53.3792locationAssembly Rooms Car ParkstreetThe FirsidBOWJUBlongitude-2.36313townBowdonfacilitiesPaper,Glass,Cans,Textiles,Shoeslatitude53.4091locationSinderland Road Household Waste and Recycling CentrestreetSinderland RoadidALTSINlongitude-2.37394townAltrinchamfacilitiesPaper,Glass,Cans,TetraPaklatitude53.4663locationCornbrook Park Road Car ParkstreetAt the end of Malvern RowidOLDCPRlongitude-2.26478townOld TraffordfacilitiesPaper,Glass,Cans,TetraPaklatitude53.4619locationSeven SistersstreetDudley CloseidOLDDCLlongitude-2.25459townOld TraffordfacilitiesPaper,Glass,Canslatitude53.4446locationManor Road Car ParkstreetManor RoadidURMMNAlongitude-2.3517townUrmstonfacilitiesPaper,Glass,Canslatitude53.4563locationThe Thostles NeststreetSeymour GroveidOLDSGRlongitude-2.27513townOld TraffordfacilitiesPaper,Glass,Canslatitude53.459locationGreenbank Road Car ParkstreetGreenbank RoadidASHGBRlongitude-2.28697townAshton-on-MerseyfacilitiesPaper,Glass,Cans,Textiles,Shoeslatitude53.4525locationWoodsend CirclestreetWoodsend CircleidURMWCPlongitude-2.39343townFlixtonfacilitiesPaper,Glass,Cans,Plastic,Shoes,Books,TetraPaklatitude53.4215locationManor Avenue Playing Fields Car ParkstreetManor AvenueidSALFIRlongitude-2.35553townAshton-on-MerseyfacilitiesPaper,Glass,Cans,TetraPaklatitude53.4187locationCar Park behind Co-opstreetCentral RoadidPARCOOlongitude-2.4263townPartingtonfacilitiesPaper,Glass,Canslatitude53.4038locationBeech AvenuestreetLangham GroveidTIMBEPlongitude-2.31996townTimperleyfacilitiesPaper,Glass,Canslatitude53.4503locationPark Road North Car ParkstreetPark Road NorthidURMPRNlongitude-2.35598townUrmstonfacilitiesPaper,Glass,Canslatitude53.4623locationBath CrescentstreetidOLDBCRlongitude-2.26979townOld TraffordfacilitiesPaper,Glass,Canslatitude53.431locationSale Water ParkstreetRifle RoadidSALWTRlongitude-2.29891townSalefacilitiesPaper,Glass,Cans,TetraPaklatitude53.4151locationCommunity CentrestreetNorris RoadidSALNORlongitude-2.30473townSalefacilitiesPaper,Glass,Cans,TetraPaklatitude53.4417locationTurn moss fieldsstreetEdge LaneidSTRTMFlongitude-2.29367townStretfordfacilitiesPaper,Glass,Cans,Textileslatitude53.4497locationWardle Close FlatsstreetWardle CloseidSTRWRDlongitude-2.29921townStretfordfacilitiesPaper,Glass,Cans,Shoeslatitude53.4566locationCircle CourtstreetBarton RoadidSTRCCTlongitude-2.33746townStretfordfacilitiesPaper,Glass,Cans,Plastic,TetraPaklatitude53.4725locationB & QstreetRedclyffe RoadidTRABQlongitude-2.35009townTrafford ParkfacilitiesPaper,Glass,Canslatitude53.447locationCar ParkstreetPennybridge LaneidURMPBLlongitude-2.37277townFlixtonfacilitiesPaper,Glass,Canslatitude53.4552locationTrafford General HospitalstreetMoorside RoadidURMTGHlongitude-2.36992townDavyhulmefacilitiesPaper,Glass,Canslatitude53.4632locationTrafford Retail ParkstreetNeary WayidURMTRPlongitude-2.35875townUrmstonfacilitiesPaper,Glass,Cans,Plastic,Textiles,Shoes,TetraPaklatitude53.4573locationChrist ChurchstreetLostock RoadidURMCHRlongitude-2.34522townDavyhulme
+  [4;36;1mRecyclingSite Columns (13.8ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.6ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Sainsburys', '53.3839', 'Paper,Glass,Cans,Textiles,Shoes,Books', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Lloyd Street', '-2.3508', 'Altrincham', 'ALTSBY')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.4ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('The Huntsman', '53.4128', 'Paper,Glass,Cans,Plastic,Books,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Catterick Road', '-2.36042', 'Sale', 'SALHNT')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Asda', '53.4685', 'Paper,Glass,Cans,Plastic,Textiles,Shoes,Books', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Barton Dock Road', '-2.3455', 'Trafford Park', 'TRAASD')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Urmston Leisure Centre', '53.4502', 'Paper,Glass,Cans,Textiles,Shoes', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Bowfell Road', '-2.3712', 'Urmston', 'URMULS')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Community Centre Car Park', '53.4618', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Blair Street', '-2.26227', 'Old Trafford', 'OLDBST')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('White City Retail Park', '53.4618', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Chester Road', '-2.28351', 'Old Trafford', 'OLDWCY')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Baker Street Car Park', '53.3986', 'Paper,Glass,Cans,Plastic,Textiles,Shoes,Books,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Baker Street', '-2.31675', 'Timperley', 'TIMBAK')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Wyevale Garden Centre', '53.384', 'Paper,Glass,Cans,Textiles', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Green Lane', '-2.32276', 'Timperley', 'TIMWYE')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Fourth Ave Car Park', '53.4657', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Fourth Ave', '-2.31047', 'Trafford Park', 'TRA4AV')[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Flixton Railway Station Car Park', '53.4442', 'Paper,Glass,Cans,Plastic,Textiles,Shoes,Books,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Flixton Road', '-2.38384', 'Flixton', 'URMFLI')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Brown Street Car Park', '53.3792', 'Paper,Glass,Cans,Plastic,Textiles,Shoes,Books', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Brown Street', '-2.34775', 'Hale', 'HALBST')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('George Carnall Leisure Centre', '53.458', 'Paper,Glass,Cans,Shoes,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Kingsway Park', '-2.34281', 'Davyhulme', 'URMGHC')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Chester Road Household Waste and Recycling Centre', '53.4401', 'Paper,Glass,Cans,Textiles,Shoes,Books', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Chester Road', '-2.31325', 'Stretford', 'STRCHR')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Ascot Avenue Car Park', '53.4172', 'Paper,Glass,Cans,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Ascot Avenue', '-2.35697', 'Sale West', 'SALASC')[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Assembly Rooms Car Park', '53.3792', 'Paper,Glass,Cans,Textiles,Shoes,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'The Firs', '-2.36313', 'Bowdon', 'BOWJUB')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Sinderland Road Household Waste and Recycling Centre', '53.4091', 'Paper,Glass,Cans,Textiles,Shoes', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Sinderland Road', '-2.37394', 'Altrincham', 'ALTSIN')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Cornbrook Park Road Car Park', '53.4663', 'Paper,Glass,Cans,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'At the end of Malvern Row', '-2.26478', 'Old Trafford', 'OLDCPR')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Seven Sisters', '53.4619', 'Paper,Glass,Cans,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Dudley Close', '-2.25459', 'Old Trafford', 'OLDDCL')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Manor Road Car Park', '53.4446', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Manor Road', '-2.3517', 'Urmston', 'URMMNA')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('The Thostles Nest', '53.4563', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Seymour Grove', '-2.27513', 'Old Trafford', 'OLDSGR')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.4ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Greenbank Road Car Park', '53.459', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Greenbank Road', '-2.28697', 'Ashton-on-Mersey', 'ASHGBR')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Woodsend Circle', '53.4525', 'Paper,Glass,Cans,Textiles,Shoes', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Woodsend Circle', '-2.39343', 'Flixton', 'URMWCP')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Manor Avenue Playing Fields Car Park', '53.4215', 'Paper,Glass,Cans,Plastic,Shoes,Books,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Manor Avenue', '-2.35553', 'Ashton-on-Mersey', 'SALFIR')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Car Park behind Co-op', '53.4187', 'Paper,Glass,Cans,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Central Road', '-2.4263', 'Partington', 'PARCOO')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Beech Avenue', '53.4038', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Langham Grove', '-2.31996', 'Timperley', 'TIMBEP')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Park Road North Car Park', '53.4503', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Park Road North', '-2.35598', 'Urmston', 'URMPRN')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (1.1ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Bath Crescent', '53.4623', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', NULL, '-2.26979', 'Old Trafford', 'OLDBCR')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Sale Water Park', '53.431', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Rifle Road', '-2.29891', 'Sale', 'SALWTR')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.2ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Community Centre', '53.4151', 'Paper,Glass,Cans,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Norris Road', '-2.30473', 'Sale', 'SALNOR')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Turn moss fields', '53.4417', 'Paper,Glass,Cans,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Edge Lane', '-2.29367', 'Stretford', 'STRTMF')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Wardle Close Flats', '53.4497', 'Paper,Glass,Cans,Textiles', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Wardle Close', '-2.29921', 'Stretford', 'STRWRD')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Circle Court', '53.4566', 'Paper,Glass,Cans,Shoes', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Barton Road', '-2.33746', 'Stretford', 'STRCCT')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('B & Q', '53.4725', 'Paper,Glass,Cans,Plastic,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Redclyffe Road', '-2.35009', 'Trafford Park', 'TRABQ')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.3ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Car Park', '53.447', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Pennybridge Lane', '-2.37277', 'Flixton', 'URMPBL')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Trafford General Hospital', '53.4552', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Moorside Road', '-2.36992', 'Davyhulme', 'URMTGH')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRecyclingSite Create (0.2ms)[0m   [0mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Trafford Retail Park', '53.4632', 'Paper,Glass,Cans', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Neary Way', '-2.35875', 'Urmston', 'URMTRP')[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mRecyclingSite Create (0.3ms)[0m   [0;1mINSERT INTO `recycling_sites` (`location`, `latitude`, `facilities`, `created_at`, `updated_at`, `street`, `longitude`, `town`, `site_id`) VALUES('Christ Church', '53.4573', 'Paper,Glass,Cans,Plastic,Textiles,Shoes,TetraPak', '2010-08-09 12:39:07', '2010-08-09 12:39:07', 'Lostock Road', '-2.34522', 'Davyhulme', 'URMCHR')[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/recycling_sites
+Completed in 357ms (DB: 60) | 302 Found [http://localhost/recycling_sites/import_data]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#index (for 127.0.0.1 at 2010-08-09 13:39:07) [GET]
+  [4;35;1mRecyclingSite Load (0.7ms)[0m   [0mSELECT * FROM `recycling_sites` [0m
+Rendering template within layouts/recycling_sites
+Rendering recycling_sites/index
+  [4;36;1mRecyclingSite Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+Completed in 158ms (View: 149, DB: 3) | 200 OK [http://localhost/recycling_sites]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#import_data (for 127.0.0.1 at 2010-08-09 13:41:44) [GET]
+--- school_hash: nameOld Trafford Community Schoollatitude53.4651establishment2076urltypeOtherurn131045longitude-2.26515lea358emailotcschool.admin@trafford.gov.uknamePictor Special Schoollatitude53.3975establishment7000urltypeOtherurn106390longitude-2.32571lea358emailpictorschool.admin@trafford.gov.uknameBrentwood Special Schoollatitude53.3983establishment7001urltypeOtherurn106391longitude-2.34349lea358emailbrentwood.head@traffordlearning.orgnameLongford Park Special Schoollatitude53.4482establishment7003urlhttp://www.longford.trafford.sch.uktypeOtherurn106392longitude-2.2941lea358emaillongford.admin@trafford.gov.uknameDelamere Special Schoollatitude53.4468establishment7005urltypeOtherurn106394longitude-2.39501lea358emaildelamere.admin@trafford.gov.uknameManor High Schoollatitude53.4247establishment7008urltypeOtherurn130943longitude-2.35448lea358emailoffice@manor-high.cheshire.sch.uknameEgerton High Special Schoollatitude53.4595establishment7009urltypeOtherurn131885longitude-2.34354lea358emailegerton.admin@trafford.gov.uknameNavigation Primary Schoollatitude53.396establishment2000urltypePrimaryurn106283longitude-2.34812lea358emailnavigation.bclarkson@traffordlearning.orgnameOldfield Brow Primary Schoollatitude53.3918establishment2002urltypePrimaryurn106284longitude-2.37704lea358emailoldfieldbrowps@yahoo.co.uknameStamford Park Junior Schoollatitude53.3821establishment2003urltypeJuniorurn106285longitude-2.34056lea358emailstamfordparkjun.admin@trafford.gov.uknameStamford Park Infant Schoollatitude53.3822establishment2004urltypeInfanturn106286longitude-2.34056lea358emailstamfordparkinf.admin@trafford.gov.uknamePark Road (Timperley) Primary Schoollatitude53.4063establishment2005urlhttp://www.parkroadprimary.trafford.sch.uktypePrimaryurn106287longitude-2.34163lea358emailparkroadtimp.admin@trafford.gov.uknameHeyes Lane Junior Schoollatitude53.4062establishment2006urlhttp://www.heyeslanejunior.co.uktypeJuniorurn106288longitude-2.3246lea358emailheyeslanejun.office@traffordlearning.orgnameBroadheath Primary Schoollatitude53.4043establishment2007urlhttp://www.broadheathprimaryschool.comtypePrimaryurn106289longitude-2.36046lea358emailbroadheath.admin@trafford.gov.uknameBroomwood Primary Schoollatitude53.3919establishment2008urlhttp://www.broomwoodprimaryschool.co.uktypePrimaryurn106290longitude-2.30914lea358emailbroomwood.admin@trafford.gov.uknameElmridge Primary Schoollatitude53.367establishment2009urlhttp://www.elmridge.trafford.sch.uktypePrimaryurn106291longitude-2.31079lea358emailoffice@elmridge.trafford.sch.uknameHeyes Lane Infant Schoollatitude53.4061establishment2010urlhttp://www.heyeslane-inf.comtypeInfanturn106292longitude-2.32433lea358emailheyeslaneinf.admin@trafford.gov.uknameWell Green Primary Schoollatitude53.3759establishment2011urltypePrimaryurn106293longitude-2.31674lea358emailwellgreen.admin@trafford.gov.uknameWillows Primary Schoollatitude53.3967establishment2012urltypePrimaryurn106294longitude-2.33103lea358emailwillows.admin@trafford.gov.uknameCloverlea Primary Schoollatitude53.3906establishment2013urlhttp://www.cloverlea.org.uktypePrimaryurn106295longitude-2.31996lea358emailcloverleaprim.admin@trafford.gov.uknameBollin Primary Schoollatitude53.3727establishment2014urlhttp://www.bollin-primary.comtypePrimaryurn106296longitude-2.36587lea358emailoffice@bollin.trafford.sch.uknamePark Road (Sale) Primary Schoollatitude53.4298establishment2018urlhttp://www.parkroadsale.trafford.sch.uktypePrimaryurn106297longitude-2.32926lea358emailparkroadsale.admin@trafford.gov.uknameSpringfield Primary Schoollatitude53.4241establishment2019urlhttp://www.springfield.trafford.sch.uktypePrimaryurn106298longitude-2.32074lea358emailSpringfield.admin@trafford.gov.uknameWoodheys Primary Schoollatitude53.4138establishment2021urltypePrimaryurn106299longitude-2.34561lea358emailwoodheys.admin@trafford.gov.uknameWorthington Primary Schoollatitude53.4206establishment2022urlhttp://www.worthington-primary.trafford.sch.uktypePrimaryurn106300longitude-2.29465lea358emailworthington.admin@trafford.gov.uknameBrooklands Primary Schoollatitude53.4132establishment2023urlhttp://www.brooklands.trafford.sch.uktypePrimaryurn106301longitude-2.32584lea358emailbrooklands.secretary@traffordlearning.orgnameLime Tree Primary Schoollatitude53.4171establishment2024urltypePrimaryurn106302longitude-2.2988lea358emailLimetree.admin@trafford.gov.uknameFirs Primary Schoollatitude53.4234establishment2025urlhttp://www.firs-primary.trafford.sch.uktypePrimaryurn106303longitude-2.35099lea358emailfirs.admin@trafford.gov.uknamePartington Primary Schoollatitude53.4171establishment2028urltypePrimaryurn106305longitude-2.42663lea358emailpartingtonprimary.chris@traffordlearning.orgnameMoorlands Junior Schoollatitude53.4246establishment2033urlhttp://www.moorlands.trafford.sch.uktypeJuniorurn106308longitude-2.30178lea358emailmoorlands.admin@trafford.gov.uknameTemplemoor Infant Schoollatitude53.4225establishment2037urlhttp://www.templemoor.trafford.sch.uktypeInfanturn106312longitude-2.30222lea358emailtemplemoor.admin@trafford.gov.uknameWellfield Infant Schoollatitude53.4291establishment2039urltypeInfanturn106313longitude-2.33919lea358emailwellfieldinf.admin@trafford.gov.uknameUrmston Junior Schoollatitude53.4496establishment2040urltypeJuniorurn106314longitude-2.36003lea358emailurmstonjun.admin@trafford.gov.uknameUrmston Infant Schoollatitude53.4497establishment2041urltypeInfanturn106315longitude-2.35944lea358emailurmstoninfants.admin@trafford.gov.uknameDavyhulme Primary Schoollatitude53.4543establishment2042urlhttp://www.davyhulmeprimary.com/typePrimaryurn106316longitude-2.34958lea358emaildavyhulmeprimary.office@traffordlearning.orgnameFlixton Junior Schoollatitude53.4499establishment2044urlhttp://www.flixton-junior.trafford.sch.uktypeJuniorurn106318longitude-2.37872lea358emailflixtonjunior.office@traffordlearning.orgnameFlixton Infant Schoollatitude53.4512establishment2045urltypeInfanturn106319longitude-2.37914lea358emailflixtoninfants.admin@trafford.gov.uknameBarton Clough Primary Schoollatitude53.4587establishment2046urltypePrimaryurn106320longitude-2.33524lea358emailbartonclough.admin@trafford.gov.uknameGorse Hill Primary Schoollatitude53.4561establishment2047urltypePrimaryurn106321longitude-2.29872lea358emailgorsehillprimary.office@traffordlearning.orgnameKings Road Primary Schoollatitude53.4543establishment2049urlhttp://www.kingsroad.ik.orgtypePrimaryurn106322longitude-2.28025lea358emailkingsroad.admin@trafford.gov.uknameMoss Park Junior Schoollatitude53.4484establishment2050urlhttp://www.mossparkjuniors.trafford.sch.uktypeJuniorurn106323longitude-2.32128lea358emailmossparkjun.admin@trafford.gov.uknameMoss Park Infant Schoollatitude53.4484establishment2051urltypeInfanturn106324longitude-2.32129lea358emailmossparkinf.admin@trafford.gov.uknameSeymour Park Community Primary Schoollatitude53.4584establishment2052urltypePrimaryurn106325longitude-2.27237lea358emailseymour.admin@trafford.gov.uknameVictoria Park Junior Schoollatitude53.4507establishment2056urltypeJuniorurn106327longitude-2.30424lea358emailvictoriajunior.admin@trafford.gov.uknameVictoria Park Infant Schoollatitude53.4495establishment2057urltypeInfanturn106328longitude-2.30823lea358emailvictoriaparkinf.admin@trafford.gov.uknameHighfield Primary Schoollatitude53.4482establishment2058urlhttp://www.highfield-primary.trafford.sch.uktypePrimaryurn106329longitude-2.33841lea358emailhighfield.admin@trafford.gov.uknameWoodhouse Primary Schoollatitude53.4581establishment2061urltypePrimaryurn106332longitude-2.37132lea358emailwoodhouse.admin@trafford.gov.uknameKingsway Primary Schoollatitude53.4578establishment2063urlhttp://www.kingsway.trafford.sch.uktypePrimaryurn106334longitude-2.34133lea358emailkingsway.admin@trafford.gov.uknameTyntesfield Primary Schoollatitude53.4106establishment2071urlhttp://www.tyntesfieldschool.co.uktypePrimaryurn106335longitude-2.34467lea358emailtyntesfield.admin@trafford.gov.uknameSt. Ann's RC Primarylatitude53.4512establishment2077urltypePrimaryurn133284longitude-2.3064lea358emailstannrc.jobrien@traffordlearning.orgnameAcre Hall Primarylatitude53.4486establishment2078urltypePrimaryurn133642longitude-2.39535lea358emailacrehallprim.admin@trafford.gov.uknameForrest Gate Primary Schoollatitude53.4161establishment2079urltypePrimaryurn133641longitude-2.44142lea358emailforestgate.admin@trafford.gov.uknameSt. Matthew's CE Primary Schoollatitude53.4405establishment3005urltypePrimaryurn106337longitude-2.31613lea358emailstmatthews.head@traffordlearning.orgnameBowdon CE Primary Schoollatitude53.3725establishment3301urlhttp://www.bowdoncs.orgtypePrimaryurn106338longitude-2.35632lea358emailbowdonce.admin@trafford.gov.uknameSt. Vincent's Catholic Junior Schoollatitude53.3892establishment3302urltypeJuniorurn106339longitude-2.34351lea358emailstvincentsjun.admin@trafford.gov.uknameSt. Hugh's Catholic Primary Schoollatitude53.4022establishment3304urltypePrimaryurn106340longitude-2.33542lea358emailsthughs.admin@trafford.gov.uknameAltrincham CE Primary Schoollatitude53.3902establishment3305urltypePrimaryurn106341longitude-2.35333lea358emailaltrinchamce.admin@trafford.gov.uknameSt. Vincent's Catholic Infant Schoollatitude53.39establishment3306urltypeInfanturn106342longitude-2.34221lea358emailstvincentsinf.admin@trafford.gov.uknameSt. Anne's CE Primarylatitude53.4203establishment3307urlhttp://www.stannessale.ik.orgtypePrimaryurn106343longitude-2.3086lea358emailstannes.admin@trafford.gov.uknameSt. Mary's CE (Sale) Primary Schoollatitude53.4237establishment3308urltypePrimaryurn106344longitude-2.33197lea358emailstmarys.admin@trafford.gov.uknameOur Lady of Lourdes Catholic Primary Schoollatitude53.4185establishment3310urlhttp://trafford.schooljotter.com/ourladyoflourdestypePrimaryurn106346longitude-2.4373lea358emaillourdes.admin@trafford.gov.uknameAll Saints Catholic Primary Schoollatitude53.4306establishment3311urlhttp://www.allsaints.trafford.sch.uktypePrimaryurn106347longitude-2.35145lea358emailallsaints.admin@trafford.gov.uknameSt. Joseph's Catholic Primary Schoollatitude53.4221establishment3312urlhttp://www.st-josephs.trafford.sch.uktypePrimaryurn106348longitude-2.3191lea358emailstjosephs.admin@trafford.gov.uknameSt. Mary's CE (Davyhulme) Primary Schoollatitude53.456establishment3313urltypePrimaryurn106349longitude-2.3647lea358emailstmarysdavy.admin@trafford.gov.uknameSt. Michael's CE Primary Schoollatitude53.4432establishment3314urlhttp://www.st-michaels.trafford.sch.uktypePrimaryurn106350longitude-2.38184lea358emailstmichaels.admin@trafford.gov.uknameSt. Hilda's CE Primary Schoollatitude53.4506establishment3316urlhttp://www.sthildas.trafford.sch.uktypePrimaryurn106351longitude-2.27934lea358emailsthildas.school@traffordlearning.orgnameEnglish Martyrs RC Primary Schoollatitude53.4488establishment3318urltypePrimaryurn106352longitude-2.35862lea358emailenglishmartyrs.office@traffordlearning.orgnameSt. Hugh's of Lincoln RC Primary Schoollatitude53.4534establishment3319urltypePrimaryurn106353longitude-2.33738lea358emailsthughoflincoln.admin@trafford.gov.uknameSt. Teresa's RC Primary Schoollatitude53.4518establishment3324urltypePrimaryurn106355longitude-2.28332lea358emailstteresas.mmitchell@traffordlearning.orgnameSt. Monica's RC Primary Schoollatitude53.4465establishment3325urltypePrimaryurn106356longitude-2.39201lea358emailstmonicas.admin@trafford.gov.uknameOur Lady of the Rosary RC Primary Schoollatitude53.4576establishment3327urltypePrimaryurn106358longitude-2.35966lea358emailrosary.admin@trafford.gov.uknameSt. Margaret Ward Catholic Primary Schoollatitude53.4139establishment3330urltypePrimaryurn106359longitude-2.35637lea358emailstmargaretward.admin@trafford.gov.uknameSt. Alphonsus RC Primary Schoollatitude53.4635establishment3331urltypePrimaryurn106360longitude-2.26361lea358emailstalphonsus.admin@trafford.gov.uknameHoly Family Catholic Primary Schoollatitude53.421establishment3309urlhttp://www.holyfamilyprimary.co.uktypePrimaryurn106345longitude-2.29926lea358emailholyfamily.admin@trafford.gov.uknameWellfield Junior Schoollatitude53.4302establishment2072urltypeJuniorurn106336longitude-2.33714lea358emailwellfieldjun.admin@trafford.gov.uknameBroadoak Schoollatitude53.4134establishment4012urltypeSecondaryurn106363longitude-2.43005lea358emailbroadoakhigh.admin@trafford.gov.uknameFlixton Girls High Schoollatitude53.4492establishment4014urltypeSecondaryurn106364longitude-2.371lea358emailflixtongirls.admin@trafford.gov.uknameWellacre Technology Collegelatitude53.4468establishment4016urlhttp://www.wellacre.orgtypeSecondaryurn106366longitude-2.39501lea358emailadmin@wellacre.orgnameAltrincham College of Artslatitude53.384establishment4024urlhttp://www.altrinchamcollege.comtypeSecondaryurn106367longitude-2.32409lea358emailheadteacher@mail.altrinchamcollege.comnameStretford Grammar Schoollatitude53.4437establishment4025urlhttp://www.stretfordgrammar.comtypeSecondaryurn106368longitude-2.29828lea358emailadmin@stretfordgrammar.comnameStretford High School Community Language Collegelatitude53.4572establishment4028urlhttp://www.shsclc.comtypeSecondaryurn106370longitude-2.29372lea358emailadmin@shsclc.comnameSale Grammar Schoollatitude53.4181establishment4029urlhttp://www.salegrammar.co.uktypeSecondaryurn106371longitude-2.31504lea358emailoffice@salegrammar.co.uknameSt. Antony's Catholic Collegelatitude53.4494establishment4602urlhttp://www.st-antonys.comtypeSecondaryurn106372longitude-2.33755lea358emailstantonys.admin@trafford.gov.uknameWellington Schoollatitude53.394establishment5400urlhttp://www.wellington.trafford.sch.uktypeSecondaryurn106373longitude-2.33421lea358emailadmin@wellington.trafford.sch.uknameAshton-on-Mersey Schoollatitude53.4194establishment5401urlhttp://www.aomschool.co.uktypeSecondaryurn106374longitude-2.33934lea358emailoffice@aom.trafford.sch.uknameJeff Joseph (Sale High School)latitude53.4142establishment5402urlhttp://www.salehighschool.co.uktypeSecondaryurn106375longitude-2.30475lea358emailheadteacher@salehighschool.co.uknameBlessed Thomas-Holfordlatitude53.3874establishment5403urlhttp://www.bth.trafford.sch.uktypeSecondaryurn106376longitude-2.34126lea358emailblessedthomas.admin@trafford.gov.uknameAltrincham Grammar School for Boyslatitude53.3765establishment5404urlhttp://www.agsb.co.uktypeSecondaryurn106361longitude-2.35126lea358emailagsbadmin@agsb.co.uknameUrmston Grammar Schoollatitude53.4505establishment5405urlhttp://www.urmstongrammar.org.uktypeSecondaryurn106369longitude-2.36106lea358emailadmin@urmstongrammar.org.uknameAltrincham Grammar School for Girlslatitude53.382establishment5407urlhttp://www.aggs.trafford.sch.uktypeSecondaryurn106362longitude-2.35983lea358emailadmin@aggs.trafford.sch.uknameSt. Ambrose Collegelatitude53.3705establishment5900urlhttp://www.stambroseprep.orgtypeSecondaryurn131315longitude-2.31975lea358emailstambroseprep.admin@traffordlearning.orgnameLoreto Grammar Schoollatitude53.3883establishment5901urltypeSecondaryurn106378longitude-2.356lea358emailloreto.info@traffordlearning.orgnameLostock Collegelatitude53.4537establishment4015urlhttp://www.lostock.trafford.sch.uktypeSecondaryurn106365longitude-2.33088lea358emailschool@lostock.trafford.sch.uk
+  [4;36;1mSchool Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Old Trafford Community School', '53.4651', '2010-08-09 12:41:44', '2076', '2010-08-09 12:41:44', NULL, '131045', '358', '-2.26515', 'Other', 'otcschool.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Pictor Special School', '53.3975', '2010-08-09 12:41:44', '7000', '2010-08-09 12:41:44', NULL, '106390', '358', '-2.32571', 'Other', 'pictorschool.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.5ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Brentwood Special School', '53.3983', '2010-08-09 12:41:44', '7001', '2010-08-09 12:41:44', NULL, '106391', '358', '-2.34349', 'Other', 'brentwood.head@traffordlearning.org')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Longford Park Special School', '53.4482', '2010-08-09 12:41:44', '7003', '2010-08-09 12:41:44', 'http://www.longford.trafford.sch.uk', '106392', '358', '-2.2941', 'Other', 'longford.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Delamere Special School', '53.4468', '2010-08-09 12:41:44', '7005', '2010-08-09 12:41:44', NULL, '106394', '358', '-2.39501', 'Other', 'delamere.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (15.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Manor High School', '53.4247', '2010-08-09 12:41:44', '7008', '2010-08-09 12:41:44', NULL, '130943', '358', '-2.35448', 'Other', 'office@manor-high.cheshire.sch.uk')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Egerton High Special School', '53.4595', '2010-08-09 12:41:44', '7009', '2010-08-09 12:41:44', NULL, '131885', '358', '-2.34354', 'Other', 'egerton.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Navigation Primary School', '53.396', '2010-08-09 12:41:44', '2000', '2010-08-09 12:41:44', NULL, '106283', '358', '-2.34812', 'Primary', 'navigation.bclarkson@traffordlearning.org')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Oldfield Brow Primary School', '53.3918', '2010-08-09 12:41:44', '2002', '2010-08-09 12:41:44', NULL, '106284', '358', '-2.37704', 'Primary', 'oldfieldbrowps@yahoo.co.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Stamford Park Junior School', '53.3821', '2010-08-09 12:41:44', '2003', '2010-08-09 12:41:44', NULL, '106285', '358', '-2.34056', 'Junior', 'stamfordparkjun.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Stamford Park Infant School', '53.3822', '2010-08-09 12:41:44', '2004', '2010-08-09 12:41:44', NULL, '106286', '358', '-2.34056', 'Infant', 'stamfordparkinf.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Park Road (Timperley) Primary School', '53.4063', '2010-08-09 12:41:44', '2005', '2010-08-09 12:41:44', 'http://www.parkroadprimary.trafford.sch.uk', '106287', '358', '-2.34163', 'Primary', 'parkroadtimp.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Heyes Lane Junior School', '53.4062', '2010-08-09 12:41:44', '2006', '2010-08-09 12:41:44', 'http://www.heyeslanejunior.co.uk', '106288', '358', '-2.3246', 'Junior', 'heyeslanejun.office@traffordlearning.org')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Broadheath Primary School', '53.4043', '2010-08-09 12:41:44', '2007', '2010-08-09 12:41:44', 'http://www.broadheathprimaryschool.com', '106289', '358', '-2.36046', 'Primary', 'broadheath.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (1.0ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Broomwood Primary School', '53.3919', '2010-08-09 12:41:44', '2008', '2010-08-09 12:41:44', 'http://www.broomwoodprimaryschool.co.uk', '106290', '358', '-2.30914', 'Primary', 'broomwood.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Elmridge Primary School', '53.367', '2010-08-09 12:41:44', '2009', '2010-08-09 12:41:44', 'http://www.elmridge.trafford.sch.uk', '106291', '358', '-2.31079', 'Primary', 'office@elmridge.trafford.sch.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Heyes Lane Infant School', '53.4061', '2010-08-09 12:41:44', '2010', '2010-08-09 12:41:44', 'http://www.heyeslane-inf.com', '106292', '358', '-2.32433', 'Infant', 'heyeslaneinf.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Well Green Primary School', '53.3759', '2010-08-09 12:41:44', '2011', '2010-08-09 12:41:44', NULL, '106293', '358', '-2.31674', 'Primary', 'wellgreen.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Willows Primary School', '53.3967', '2010-08-09 12:41:44', '2012', '2010-08-09 12:41:44', NULL, '106294', '358', '-2.33103', 'Primary', 'willows.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Cloverlea Primary School', '53.3906', '2010-08-09 12:41:44', '2013', '2010-08-09 12:41:44', 'http://www.cloverlea.org.uk', '106295', '358', '-2.31996', 'Primary', 'cloverleaprim.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Bollin Primary School', '53.3727', '2010-08-09 12:41:44', '2014', '2010-08-09 12:41:44', 'http://www.bollin-primary.com', '106296', '358', '-2.36587', 'Primary', 'office@bollin.trafford.sch.uk')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Park Road (Sale) Primary School', '53.4298', '2010-08-09 12:41:44', '2018', '2010-08-09 12:41:44', 'http://www.parkroadsale.trafford.sch.uk', '106297', '358', '-2.32926', 'Primary', 'parkroadsale.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Springfield Primary School', '53.4241', '2010-08-09 12:41:44', '2019', '2010-08-09 12:41:44', 'http://www.springfield.trafford.sch.uk', '106298', '358', '-2.32074', 'Primary', 'Springfield.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Woodheys Primary School', '53.4138', '2010-08-09 12:41:44', '2021', '2010-08-09 12:41:44', NULL, '106299', '358', '-2.34561', 'Primary', 'woodheys.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Worthington Primary School', '53.4206', '2010-08-09 12:41:44', '2022', '2010-08-09 12:41:44', 'http://www.worthington-primary.trafford.sch.uk', '106300', '358', '-2.29465', 'Primary', 'worthington.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Brooklands Primary School', '53.4132', '2010-08-09 12:41:44', '2023', '2010-08-09 12:41:44', 'http://www.brooklands.trafford.sch.uk', '106301', '358', '-2.32584', 'Primary', 'brooklands.secretary@traffordlearning.org')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Lime Tree Primary School', '53.4171', '2010-08-09 12:41:44', '2024', '2010-08-09 12:41:44', NULL, '106302', '358', '-2.2988', 'Primary', 'Limetree.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Firs Primary School', '53.4234', '2010-08-09 12:41:44', '2025', '2010-08-09 12:41:44', 'http://www.firs-primary.trafford.sch.uk', '106303', '358', '-2.35099', 'Primary', 'firs.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Partington Primary School', '53.4171', '2010-08-09 12:41:44', '2028', '2010-08-09 12:41:44', NULL, '106305', '358', '-2.42663', 'Primary', 'partingtonprimary.chris@traffordlearning.org')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Moorlands Junior School', '53.4246', '2010-08-09 12:41:44', '2033', '2010-08-09 12:41:44', 'http://www.moorlands.trafford.sch.uk', '106308', '358', '-2.30178', 'Junior', 'moorlands.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Templemoor Infant School', '53.4225', '2010-08-09 12:41:44', '2037', '2010-08-09 12:41:44', 'http://www.templemoor.trafford.sch.uk', '106312', '358', '-2.30222', 'Infant', 'templemoor.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Wellfield Infant School', '53.4291', '2010-08-09 12:41:44', '2039', '2010-08-09 12:41:44', NULL, '106313', '358', '-2.33919', 'Infant', 'wellfieldinf.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Urmston Junior School', '53.4496', '2010-08-09 12:41:44', '2040', '2010-08-09 12:41:44', NULL, '106314', '358', '-2.36003', 'Junior', 'urmstonjun.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Urmston Infant School', '53.4497', '2010-08-09 12:41:44', '2041', '2010-08-09 12:41:44', NULL, '106315', '358', '-2.35944', 'Infant', 'urmstoninfants.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Davyhulme Primary School', '53.4543', '2010-08-09 12:41:45', '2042', '2010-08-09 12:41:45', 'http://www.davyhulmeprimary.com/', '106316', '358', '-2.34958', 'Primary', 'davyhulmeprimary.office@traffordlearning.org')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Flixton Junior School', '53.4499', '2010-08-09 12:41:45', '2044', '2010-08-09 12:41:45', 'http://www.flixton-junior.trafford.sch.uk', '106318', '358', '-2.37872', 'Junior', 'flixtonjunior.office@traffordlearning.org')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Flixton Infant School', '53.4512', '2010-08-09 12:41:45', '2045', '2010-08-09 12:41:45', NULL, '106319', '358', '-2.37914', 'Infant', 'flixtoninfants.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Barton Clough Primary School', '53.4587', '2010-08-09 12:41:45', '2046', '2010-08-09 12:41:45', NULL, '106320', '358', '-2.33524', 'Primary', 'bartonclough.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Gorse Hill Primary School', '53.4561', '2010-08-09 12:41:45', '2047', '2010-08-09 12:41:45', NULL, '106321', '358', '-2.29872', 'Primary', 'gorsehillprimary.office@traffordlearning.org')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Kings Road Primary School', '53.4543', '2010-08-09 12:41:45', '2049', '2010-08-09 12:41:45', 'http://www.kingsroad.ik.org', '106322', '358', '-2.28025', 'Primary', 'kingsroad.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Moss Park Junior School', '53.4484', '2010-08-09 12:41:45', '2050', '2010-08-09 12:41:45', 'http://www.mossparkjuniors.trafford.sch.uk', '106323', '358', '-2.32128', 'Junior', 'mossparkjun.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Moss Park Infant School', '53.4484', '2010-08-09 12:41:45', '2051', '2010-08-09 12:41:45', NULL, '106324', '358', '-2.32129', 'Infant', 'mossparkinf.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Seymour Park Community Primary School', '53.4584', '2010-08-09 12:41:45', '2052', '2010-08-09 12:41:45', NULL, '106325', '358', '-2.27237', 'Primary', 'seymour.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Victoria Park Junior School', '53.4507', '2010-08-09 12:41:45', '2056', '2010-08-09 12:41:45', NULL, '106327', '358', '-2.30424', 'Junior', 'victoriajunior.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Victoria Park Infant School', '53.4495', '2010-08-09 12:41:45', '2057', '2010-08-09 12:41:45', NULL, '106328', '358', '-2.30823', 'Infant', 'victoriaparkinf.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Highfield Primary School', '53.4482', '2010-08-09 12:41:45', '2058', '2010-08-09 12:41:45', 'http://www.highfield-primary.trafford.sch.uk', '106329', '358', '-2.33841', 'Primary', 'highfield.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Woodhouse Primary School', '53.4581', '2010-08-09 12:41:45', '2061', '2010-08-09 12:41:45', NULL, '106332', '358', '-2.37132', 'Primary', 'woodhouse.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Kingsway Primary School', '53.4578', '2010-08-09 12:41:45', '2063', '2010-08-09 12:41:45', 'http://www.kingsway.trafford.sch.uk', '106334', '358', '-2.34133', 'Primary', 'kingsway.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Tyntesfield Primary School', '53.4106', '2010-08-09 12:41:45', '2071', '2010-08-09 12:41:45', 'http://www.tyntesfieldschool.co.uk', '106335', '358', '-2.34467', 'Primary', 'tyntesfield.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Ann\'s RC Primary', '53.4512', '2010-08-09 12:41:45', '2077', '2010-08-09 12:41:45', NULL, '133284', '358', '-2.3064', 'Primary', 'stannrc.jobrien@traffordlearning.org')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Acre Hall Primary', '53.4486', '2010-08-09 12:41:45', '2078', '2010-08-09 12:41:45', NULL, '133642', '358', '-2.39535', 'Primary', 'acrehallprim.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Forrest Gate Primary School', '53.4161', '2010-08-09 12:41:45', '2079', '2010-08-09 12:41:45', NULL, '133641', '358', '-2.44142', 'Primary', 'forestgate.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Matthew\'s CE Primary School', '53.4405', '2010-08-09 12:41:45', '3005', '2010-08-09 12:41:45', NULL, '106337', '358', '-2.31613', 'Primary', 'stmatthews.head@traffordlearning.org')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Bowdon CE Primary School', '53.3725', '2010-08-09 12:41:45', '3301', '2010-08-09 12:41:45', 'http://www.bowdoncs.org', '106338', '358', '-2.35632', 'Primary', 'bowdonce.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Vincent\'s Catholic Junior School', '53.3892', '2010-08-09 12:41:45', '3302', '2010-08-09 12:41:45', NULL, '106339', '358', '-2.34351', 'Junior', 'stvincentsjun.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Hugh\'s Catholic Primary School', '53.4022', '2010-08-09 12:41:45', '3304', '2010-08-09 12:41:45', NULL, '106340', '358', '-2.33542', 'Primary', 'sthughs.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Altrincham CE Primary School', '53.3902', '2010-08-09 12:41:45', '3305', '2010-08-09 12:41:45', NULL, '106341', '358', '-2.35333', 'Primary', 'altrinchamce.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Vincent\'s Catholic Infant School', '53.39', '2010-08-09 12:41:45', '3306', '2010-08-09 12:41:45', NULL, '106342', '358', '-2.34221', 'Infant', 'stvincentsinf.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Anne\'s CE Primary', '53.4203', '2010-08-09 12:41:45', '3307', '2010-08-09 12:41:45', 'http://www.stannessale.ik.org', '106343', '358', '-2.3086', 'Primary', 'stannes.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Mary\'s CE (Sale) Primary School', '53.4237', '2010-08-09 12:41:45', '3308', '2010-08-09 12:41:45', NULL, '106344', '358', '-2.33197', 'Primary', 'stmarys.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Our Lady of Lourdes Catholic Primary School', '53.4185', '2010-08-09 12:41:45', '3310', '2010-08-09 12:41:45', 'http://trafford.schooljotter.com/ourladyoflourdes', '106346', '358', '-2.4373', 'Primary', 'lourdes.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('All Saints Catholic Primary School', '53.4306', '2010-08-09 12:41:45', '3311', '2010-08-09 12:41:45', 'http://www.allsaints.trafford.sch.uk', '106347', '358', '-2.35145', 'Primary', 'allsaints.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Joseph\'s Catholic Primary School', '53.4221', '2010-08-09 12:41:45', '3312', '2010-08-09 12:41:45', 'http://www.st-josephs.trafford.sch.uk', '106348', '358', '-2.3191', 'Primary', 'stjosephs.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Mary\'s CE (Davyhulme) Primary School', '53.456', '2010-08-09 12:41:45', '3313', '2010-08-09 12:41:45', NULL, '106349', '358', '-2.3647', 'Primary', 'stmarysdavy.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Michael\'s CE Primary School', '53.4432', '2010-08-09 12:41:45', '3314', '2010-08-09 12:41:45', 'http://www.st-michaels.trafford.sch.uk', '106350', '358', '-2.38184', 'Primary', 'stmichaels.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Hilda\'s CE Primary School', '53.4506', '2010-08-09 12:41:45', '3316', '2010-08-09 12:41:45', 'http://www.sthildas.trafford.sch.uk', '106351', '358', '-2.27934', 'Primary', 'sthildas.school@traffordlearning.org')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('English Martyrs RC Primary School', '53.4488', '2010-08-09 12:41:45', '3318', '2010-08-09 12:41:45', NULL, '106352', '358', '-2.35862', 'Primary', 'englishmartyrs.office@traffordlearning.org')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Hugh\'s of Lincoln RC Primary School', '53.4534', '2010-08-09 12:41:45', '3319', '2010-08-09 12:41:45', NULL, '106353', '358', '-2.33738', 'Primary', 'sthughoflincoln.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Teresa\'s RC Primary School', '53.4518', '2010-08-09 12:41:45', '3324', '2010-08-09 12:41:45', NULL, '106355', '358', '-2.28332', 'Primary', 'stteresas.mmitchell@traffordlearning.org')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Monica\'s RC Primary School', '53.4465', '2010-08-09 12:41:45', '3325', '2010-08-09 12:41:45', NULL, '106356', '358', '-2.39201', 'Primary', 'stmonicas.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Our Lady of the Rosary RC Primary School', '53.4576', '2010-08-09 12:41:45', '3327', '2010-08-09 12:41:45', NULL, '106358', '358', '-2.35966', 'Primary', 'rosary.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Margaret Ward Catholic Primary School', '53.4139', '2010-08-09 12:41:45', '3330', '2010-08-09 12:41:45', NULL, '106359', '358', '-2.35637', 'Primary', 'stmargaretward.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Alphonsus RC Primary School', '53.4635', '2010-08-09 12:41:45', '3331', '2010-08-09 12:41:45', NULL, '106360', '358', '-2.26361', 'Primary', 'stalphonsus.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Holy Family Catholic Primary School', '53.421', '2010-08-09 12:41:45', '3309', '2010-08-09 12:41:45', 'http://www.holyfamilyprimary.co.uk', '106345', '358', '-2.29926', 'Primary', 'holyfamily.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.8ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Wellfield Junior School', '53.4302', '2010-08-09 12:41:45', '2072', '2010-08-09 12:41:45', NULL, '106336', '358', '-2.33714', 'Junior', 'wellfieldjun.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Broadoak School', '53.4134', '2010-08-09 12:41:45', '4012', '2010-08-09 12:41:45', NULL, '106363', '358', '-2.43005', 'Secondary', 'broadoakhigh.admin@trafford.gov.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Flixton Girls High School', '53.4492', '2010-08-09 12:41:45', '4014', '2010-08-09 12:41:45', NULL, '106364', '358', '-2.371', 'Secondary', 'flixtongirls.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Wellacre Technology College', '53.4468', '2010-08-09 12:41:45', '4016', '2010-08-09 12:41:45', 'http://www.wellacre.org', '106366', '358', '-2.39501', 'Secondary', 'admin@wellacre.org')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Altrincham College of Arts', '53.384', '2010-08-09 12:41:45', '4024', '2010-08-09 12:41:45', 'http://www.altrinchamcollege.com', '106367', '358', '-2.32409', 'Secondary', 'headteacher@mail.altrinchamcollege.com')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Stretford Grammar School', '53.4437', '2010-08-09 12:41:45', '4025', '2010-08-09 12:41:45', 'http://www.stretfordgrammar.com', '106368', '358', '-2.29828', 'Secondary', 'admin@stretfordgrammar.com')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Stretford High School Community Language College', '53.4572', '2010-08-09 12:41:45', '4028', '2010-08-09 12:41:45', 'http://www.shsclc.com', '106370', '358', '-2.29372', 'Secondary', 'admin@shsclc.com')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Sale Grammar School', '53.4181', '2010-08-09 12:41:45', '4029', '2010-08-09 12:41:45', 'http://www.salegrammar.co.uk', '106371', '358', '-2.31504', 'Secondary', 'office@salegrammar.co.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.4ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Antony\'s Catholic College', '53.4494', '2010-08-09 12:41:45', '4602', '2010-08-09 12:41:45', 'http://www.st-antonys.com', '106372', '358', '-2.33755', 'Secondary', 'stantonys.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.2ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Wellington School', '53.394', '2010-08-09 12:41:45', '5400', '2010-08-09 12:41:45', 'http://www.wellington.trafford.sch.uk', '106373', '358', '-2.33421', 'Secondary', 'admin@wellington.trafford.sch.uk')[0m
+  [4;36;1mSQL (16.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Ashton-on-Mersey School', '53.4194', '2010-08-09 12:41:45', '5401', '2010-08-09 12:41:45', 'http://www.aomschool.co.uk', '106374', '358', '-2.33934', 'Secondary', 'office@aom.trafford.sch.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Jeff Joseph (Sale High School)', '53.4142', '2010-08-09 12:41:45', '5402', '2010-08-09 12:41:45', 'http://www.salehighschool.co.uk', '106375', '358', '-2.30475', 'Secondary', 'headteacher@salehighschool.co.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Blessed Thomas-Holford', '53.3874', '2010-08-09 12:41:45', '5403', '2010-08-09 12:41:45', 'http://www.bth.trafford.sch.uk', '106376', '358', '-2.34126', 'Secondary', 'blessedthomas.admin@trafford.gov.uk')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Altrincham Grammar School for Boys', '53.3765', '2010-08-09 12:41:45', '5404', '2010-08-09 12:41:45', 'http://www.agsb.co.uk', '106361', '358', '-2.35126', 'Secondary', 'agsbadmin@agsb.co.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.2ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Urmston Grammar School', '53.4505', '2010-08-09 12:41:45', '5405', '2010-08-09 12:41:45', 'http://www.urmstongrammar.org.uk', '106369', '358', '-2.36106', 'Secondary', 'admin@urmstongrammar.org.uk')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.4ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Altrincham Grammar School for Girls', '53.382', '2010-08-09 12:41:45', '5407', '2010-08-09 12:41:45', 'http://www.aggs.trafford.sch.uk', '106362', '358', '-2.35983', 'Secondary', 'admin@aggs.trafford.sch.uk')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('St. Ambrose College', '53.3705', '2010-08-09 12:41:45', '5900', '2010-08-09 12:41:45', 'http://www.stambroseprep.org', '131315', '358', '-2.31975', 'Secondary', 'stambroseprep.admin@traffordlearning.org')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSchool Create (0.3ms)[0m   [0mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Loreto Grammar School', '53.3883', '2010-08-09 12:41:45', '5901', '2010-08-09 12:41:45', NULL, '106378', '358', '-2.356', 'Secondary', 'loreto.info@traffordlearning.org')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSchool Create (0.3ms)[0m   [0;1mINSERT INTO `schools` (`name`, `latitude`, `created_at`, `establishment`, `updated_at`, `url`, `urn`, `lea`, `longitude`, `school_type`, `email`) VALUES('Lostock College', '53.4537', '2010-08-09 12:41:45', '4015', '2010-08-09 12:41:45', 'http://www.lostock.trafford.sch.uk', '106365', '358', '-2.33088', 'Secondary', 'school@lostock.trafford.sch.uk')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/schools
+Completed in 969ms (DB: 118) | 302 Found [http://localhost/schools/import_data]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-09 13:41:45) [GET]
+  [4;35;1mSchool Load (3.0ms)[0m   [0mSELECT * FROM `schools` [0m
+Rendering template within layouts/schools
+Rendering schools/index
+  [4;36;1mSchool Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
+Completed in 540ms (View: 527, DB: 5) | 200 OK [http://localhost/schools]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-09 13:43:17) [GET]
+  [4;36;1mSchool Load (1.1ms)[0m   [0;1mSELECT * FROM `schools` [0m
+Rendering schools/index
+  [4;35;1mSchool Columns (78.5ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+Completed in 584ms (View: 496, DB: 80) | 200 OK [http://localhost/schools]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-09 13:43:40) [GET]
+  [4;35;1mSchool Load (1.0ms)[0m   [0mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;36;1mSchool Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
+Completed in 424ms (View: 412, DB: 3) | 200 OK [http://localhost/schools]
+  [4;35;1mSQL (7.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:47:14) [GET]
+
+NameError (uninitialized constant TreesController::RANDOM_TEXT):
+  app/controllers/trees_controller.rb:7:in `index'
+  app/controllers/trees_controller.rb:5:in `index'
+
+Rendered rescues/_trace (50.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:47:38) [GET]
+  [4;35;1mTree Load (1371.7ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1414ms (View: 34, DB: 1372) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-09 13:47:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo_sq_135.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:47:40) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (2102.2ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 2997ms (View: 1, DB: 2105) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:47:57) [GET]
+  Parameters: {"ne"=>"53.450136,-2.271252", "sw"=>"53.388755,-2.408581"}
+  [4;35;1mTree Load (148.6ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.450136' AND latitude > '53.388755') OR (longitude > '-2.408581' AND longitude < '-2.271252')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 611ms (View: 1, DB: 151) | 200 OK [http://localhost/trees.js?ne=53.450136%2C-2.271252&sw=53.388755%2C-2.408581]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:48:37) [GET]
+  [4;36;1mTree Load (1290.6ms)[0m   [0;1mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1303ms (View: 4, DB: 1291) | 200 OK [http://localhost/trees]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:48:39) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (1349.2ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1850ms (View: 1, DB: 1351) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:49:19) [GET]
+  [4;35;1mTree Load (1286.2ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1299ms (View: 4, DB: 1286) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:49:21) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (1315.2ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 1810ms (View: 1, DB: 1317) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (1.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:49:40) [GET]
+  [4;36;1mTree Load (1245.2ms)[0m   [0;1mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1257ms (View: 4, DB: 1247) | 200 OK [http://localhost/trees]
+  [4;35;1mSQL (1.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:49:42) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (1293.1ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1794ms (View: 1, DB: 1297) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:51:02) [GET]
+  [4;35;1mTree Load (1307.2ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1329ms (View: 13, DB: 1309) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:51:04) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (1830.7ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 2322ms (View: 1, DB: 1833) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:51:18) [GET]
+  Parameters: {"ne"=>"53.43485,-2.30567", "sw"=>"53.404159,-2.374334"}
+  [4;36;1mTree Load (93.7ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.43485' AND latitude > '53.404159') OR (longitude > '-2.374334' AND longitude < '-2.30567')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 719ms (View: 1, DB: 97) | 200 OK [http://localhost/trees.js?ne=53.43485%2C-2.30567&sw=53.404159%2C-2.374334]
+  [4;36;1mSQL (3.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:52:07) [GET]
+  [4;35;1mTree Load (1526.7ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1548ms (View: 13, DB: 1530) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:52:10) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (1461.4ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 1867ms (View: 1, DB: 1464) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:52:46) [GET]
+  [4;36;1mTree Load (1068.5ms)[0m   [0;1mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1091ms (View: 12, DB: 1069) | 200 OK [http://localhost/trees]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:52:48) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (868.1ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1367ms (View: 1, DB: 871) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:54:04) [GET]
+  [4;35;1mTree Load (792.7ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 813ms (View: 12, DB: 793) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:54:06) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (887.0ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 1388ms (View: 1, DB: 889) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:55:37) [GET]
+  [4;36;1mTree Load (1087.9ms)[0m   [0;1mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1109ms (View: 14, DB: 1088) | 200 OK [http://localhost/trees]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:55:39) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (853.6ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1361ms (View: 1, DB: 856) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:56:20) [GET]
+  [4;35;1mTree Load (750.9ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 773ms (View: 14, DB: 751) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:56:21) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (852.0ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 1371ms (View: 1, DB: 855) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:56:50) [GET]
+  Parameters: {"ne"=>"53.49642,-2.202759", "sw"=>"53.373703,-2.477417"}
+  [4;36;1mTree Load (766.8ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.49642' AND latitude > '53.373703') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1262ms (View: 1, DB: 769) | 200 OK [http://localhost/trees.js?ne=53.49642%2C-2.202759&sw=53.373703%2C-2.477417]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 13:57:11) [GET]
+  [4;35;1mTree Load (845.4ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 979ms (View: 12, DB: 846) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 13:57:12) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (888.8ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;36;1mTree Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 1463ms (View: 1, DB: 893) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:05:18) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (69.5ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 96ms (View: 19, DB: 70) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:05:38) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:06:29) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 29ms (View: 18, DB: 4) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:07:27) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 24ms (View: 14, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:07:56) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:08:08) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 23ms (View: 14, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:08:18) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 25ms (View: 15, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:08:28) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 23ms (View: 14, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:08:35) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 24ms (View: 14, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:08:45) [GET]
+  [4;35;1mAllotment Load (0.7ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 24ms (View: 14, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (2.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:09:26) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (74.8ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 91ms (View: 9, DB: 77) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:10:06) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 24ms (View: 15, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 14:11:02) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (28.2ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 55ms (View: 20, DB: 29) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 14:12:34) [GET]
+  [4;35;1mLeisureCentre Load (0.4ms)[0m   [0mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;36;1mLeisureCentre Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `leisure_centres`[0m
+
+ActionView::TemplateError (undefined method `area' for #<LeisureCentre:0x23f2be8>) on line #39 of app/views/leisure_centres/index.html.erb:
+36: 		  map.addOverlay(polygon);
+37: 		
+38: 		<% @leisure_centres.each do |a| %>
+39: 			info = "<div><strong><%= a.name %></strong><br/><%= a.area %><br><%= a.ref %>,";
+40: 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+41: 			map.addOverlay(createMarker(point, info));
+42: 		<% end %>
+
+    app/views/leisure_centres/index.html.erb:39
+    app/views/leisure_centres/index.html.erb:38:in `each'
+    app/views/leisure_centres/index.html.erb:38
+    app/views/leisure_centres/index.html.erb:1
+    app/controllers/leisure_centres_controller.rb:7:in `index'
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#import_data (for 127.0.0.1 at 2010-08-09 14:13:16) [GET]
+
+Errno::ENOENT (No such file or directory - public/leisurecentres.xml):
+  app/controllers/leisure_centres_controller.rb:87:in `read'
+  app/controllers/leisure_centres_controller.rb:87:in `import_data'
+
+Rendered rescues/_trace (45.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#import_data (for 127.0.0.1 at 2010-08-09 14:13:37) [GET]
+--- leisure_centre_hash: nameAltrinchamlatitude53.3883longitude-2.34573nameGeorge H Carnalllatitude53.4578longitude-2.34308nameSalelatitude53.4248longitude-2.31605nameStretfordlatitude53.4581longitude-2.2927nameUrmstonlatitude53.4502longitude-2.37122namePartingtonlatitude53.4135longitude-2.42659nameOld Trafford Sports Barnlatitude53.4607longitude-2.27311nameWalton Parklatitude53.4146longitude-2.3297
+  [4;35;1mLeisureCentre Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `leisure_centres`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLeisureCentre Create (0.4ms)[0m   [0mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Altrincham', '53.3883', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.34573')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mLeisureCentre Create (0.3ms)[0m   [0;1mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('George H Carnall', '53.4578', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.34308')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLeisureCentre Create (0.3ms)[0m   [0mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Sale', '53.4248', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.31605')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mLeisureCentre Create (0.3ms)[0m   [0;1mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Stretford', '53.4581', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.2927')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLeisureCentre Create (0.3ms)[0m   [0mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Urmston', '53.4502', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.37122')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mLeisureCentre Create (0.2ms)[0m   [0;1mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Partington', '53.4135', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.42659')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLeisureCentre Create (0.2ms)[0m   [0mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Old Trafford Sports Barn', '53.4607', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.27311')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mLeisureCentre Create (0.2ms)[0m   [0;1mINSERT INTO `leisure_centres` (`name`, `latitude`, `created_at`, `updated_at`, `longitude`) VALUES('Walton Park', '53.4146', '2010-08-09 13:13:37', '2010-08-09 13:13:37', '-2.3297')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/leisure_centres
+Completed in 674ms (DB: 10) | 302 Found [http://localhost/leisure_centres/import_data]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 14:13:37) [GET]
+  [4;35;1mLeisureCentre Load (0.5ms)[0m   [0mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;36;1mLeisureCentre Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `leisure_centres`[0m
+
+ActionView::TemplateError (undefined method `area' for #<LeisureCentre:0x23f25e4>) on line #39 of app/views/leisure_centres/index.html.erb:
+36: 		  map.addOverlay(polygon);
+37: 		
+38: 		<% @leisure_centres.each do |a| %>
+39: 			info = "<div><strong><%= a.name %></strong><br/><%= a.area %><br><%= a.ref %>,";
+40: 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+41: 			map.addOverlay(createMarker(point, info));
+42: 		<% end %>
+
+    app/views/leisure_centres/index.html.erb:39
+    app/views/leisure_centres/index.html.erb:38:in `each'
+    app/views/leisure_centres/index.html.erb:38
+    app/views/leisure_centres/index.html.erb:1
+    app/controllers/leisure_centres_controller.rb:7:in `index'
+
+Rendered rescues/_trace (160.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 14:14:15) [GET]
+  [4;36;1mLeisureCentre Load (0.5ms)[0m   [0;1mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;35;1mLeisureCentre Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `leisure_centres`[0m
+
+ActionView::TemplateError (undefined method `area' for #<LeisureCentre:0x259174c>) on line #39 of app/views/leisure_centres/index.html.erb:
+36: 		  map.addOverlay(polygon);
+37: 		
+38: 		<% @leisure_centres.each do |a| %>
+39: 			info = "<div><strong><%= a.name %></strong><br/><%= a.area %><br><%= a.ref %></div>";
+40: 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+41: 			map.addOverlay(createMarker(point, info));
+42: 		<% end %>
+
+    app/views/leisure_centres/index.html.erb:39
+    app/views/leisure_centres/index.html.erb:38:in `each'
+    app/views/leisure_centres/index.html.erb:38
+    app/views/leisure_centres/index.html.erb:1
+    app/controllers/leisure_centres_controller.rb:7:in `index'
+
+Rendered rescues/_trace (69.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 14:14:29) [GET]
+  [4;35;1mLeisureCentre Load (0.5ms)[0m   [0mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;36;1mLeisureCentre Columns (71.8ms)[0m   [0;1mSHOW FIELDS FROM `leisure_centres`[0m
+
+ActionView::TemplateError (undefined method `area' for #<LeisureCentre:0x238e56c>) on line #39 of app/views/leisure_centres/index.html.erb:
+36: 		  map.addOverlay(polygon);
+37: 		
+38: 		<% @leisure_centres.each do |a| %>
+39: 			info = "<div><strong><%= a.name %></strong><br/><%= a.area %><br><%= a.ref %></div>";
+40: 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+41: 			map.addOverlay(createMarker(point, info));
+42: 		<% end %>
+
+    app/views/leisure_centres/index.html.erb:39
+    app/views/leisure_centres/index.html.erb:38:in `each'
+    app/views/leisure_centres/index.html.erb:38
+    app/views/leisure_centres/index.html.erb:1
+    app/controllers/leisure_centres_controller.rb:7:in `index'
+
+Rendered rescues/_trace (163.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 14:14:57) [GET]
+  [4;36;1mLeisureCentre Load (1.1ms)[0m   [0;1mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;35;1mLeisureCentre Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `leisure_centres`[0m
+Completed in 23ms (View: 13, DB: 3) | 200 OK [http://localhost/leisure_centres]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 14:15:37) [GET]
+  [4;35;1mLeisureCentre Load (0.7ms)[0m   [0mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;36;1mLeisureCentre Columns (14.7ms)[0m   [0;1mSHOW FIELDS FROM `leisure_centres`[0m
+Completed in 28ms (View: 7, DB: 16) | 200 OK [http://localhost/leisure_centres]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-08-09 14:17:23) [GET]
+  [4;36;1mLibrary Load (0.5ms)[0m   [0;1mSELECT * FROM `libraries` [0m
+Rendering template within layouts/application
+Rendering libraries/index
+  [4;35;1mLibrary Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `libraries`[0m
+
+ActionView::TemplateError (undefined method `lowercase' for "STAMFORD NEW ROAD":String) on line #39 of app/views/libraries/index.html.erb:
+36: 		  map.addOverlay(polygon);
+37: 		
+38: 		<% @libraries.each do |a| %>
+39: 			info = "<div><strong><%= a.name %></strong><br><%= a.street.lowercase.capitalize %><br><%= a.town %></div>";
+40: 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+41: 			map.addOverlay(createMarker(point, info));
+42: 		<% end %>
+
+    app/views/libraries/index.html.erb:39
+    app/views/libraries/index.html.erb:38:in `each'
+    app/views/libraries/index.html.erb:38
+    app/views/libraries/index.html.erb:1
+    app/controllers/libraries_controller.rb:7:in `index'
+
+Rendered rescues/_trace (158.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-08-09 14:18:24) [GET]
+  [4;35;1mLibrary Load (0.5ms)[0m   [0mSELECT * FROM `libraries` [0m
+Rendering template within layouts/application
+Rendering libraries/index
+  [4;36;1mLibrary Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `libraries`[0m
+Completed in 22ms (View: 14, DB: 3) | 200 OK [http://localhost/libraries]
+  [4;35;1mSQL (1.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-08-09 14:20:38) [GET]
+  [4;36;1mLibrary Load (0.5ms)[0m   [0;1mSELECT * FROM `libraries` [0m
+Rendering template within layouts/application
+Rendering libraries/index
+  [4;35;1mLibrary Columns (4.8ms)[0m   [0mSHOW FIELDS FROM `libraries`[0m
+Completed in 27ms (View: 14, DB: 7) | 200 OK [http://localhost/libraries]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-08-09 14:20:51) [GET]
+  [4;35;1mLibrary Load (0.5ms)[0m   [0mSELECT * FROM `libraries` [0m
+Rendering template within layouts/application
+Rendering libraries/index
+  [4;36;1mLibrary Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `libraries`[0m
+Completed in 23ms (View: 14, DB: 3) | 200 OK [http://localhost/libraries]

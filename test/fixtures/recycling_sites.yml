@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  site_id: MyString
+  location: MyString
+  street: MyString
+  town: MyString
+  longitude: MyString
+  latitude: MyString
+  facilities: MyString
+
+two:
+  site_id: MyString
+  location: MyString
+  street: MyString
+  town: MyString
+  longitude: MyString
+  latitude: MyString
+  facilities: MyString

@@ -1,0 +1,43 @@
+<p>
+  <b>Tree ref:</b>
+  <%=h @tree.tree_ref %>
+</p>
+
+<p>
+  <b>Species:</b>
+  <%=h @tree.species %>
+</p>
+
+<p>
+  <b>Locality name:</b>
+  <%=h @tree.locality_name %>
+</p>
+
+<p>
+  <b>District name:</b>
+  <%=h @tree.district_name %>
+</p>
+
+<p>
+  <b>Height:</b>
+  <%=h @tree.height %>
+</p>
+
+<p>
+  <b>Dbh:</b>
+  <%=h @tree.dbh %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @tree.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @tree.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_tree_path(@tree) %> |
+<%= link_to 'Back', trees_path %>

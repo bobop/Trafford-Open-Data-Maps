@@ -1,0 +1,48 @@
+<h1>Editing school</h1>
+
+<% form_for(@school) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :urn %><br />
+    <%= f.text_field :urn %>
+  </p>
+  <p>
+    <%= f.label :lea %><br />
+    <%= f.text_field :lea %>
+  </p>
+  <p>
+    <%= f.label :establishment %><br />
+    <%= f.text_field :establishment %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :school_type %><br />
+    <%= f.text_field :school_type %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @school %> |
+<%= link_to 'Back', schools_path %>

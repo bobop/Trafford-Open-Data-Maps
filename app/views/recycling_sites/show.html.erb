@@ -1,0 +1,38 @@
+<p>
+  <b>Site:</b>
+  <%=h @recycling_site.site_id %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%=h @recycling_site.location %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%=h @recycling_site.street %>
+</p>
+
+<p>
+  <b>Town:</b>
+  <%=h @recycling_site.town %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @recycling_site.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @recycling_site.latitude %>
+</p>
+
+<p>
+  <b>Facilities:</b>
+  <%=h @recycling_site.facilities %>
+</p>
+
+
+<%= link_to 'Edit', edit_recycling_site_path(@recycling_site) %> |
+<%= link_to 'Back', recycling_sites_path %>

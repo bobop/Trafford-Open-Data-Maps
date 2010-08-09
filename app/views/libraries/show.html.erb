@@ -1,0 +1,28 @@
+<p>
+  <b>Name:</b>
+  <%=h @library.name %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%=h @library.street %>
+</p>
+
+<p>
+  <b>Town:</b>
+  <%=h @library.town %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @library.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @library.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_library_path(@library) %> |
+<%= link_to 'Back', libraries_path %>
