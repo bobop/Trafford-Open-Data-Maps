@@ -42,12 +42,6 @@
 		Icon.iconSize = new GSize(32, 37);
 		markerOptions = { icon:Icon };
 		
-		<% @libraries.each do |a| %>
-			info = "<div><strong><%= a.name %></strong><br><%= a.street.titleize %><br><%= a.town.titleize %></div>";
-			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
-			map.addOverlay(createMarker(point, info));
-		<% end %>
-		
 		function createMarker(point, info) {
 		  var marker = new GMarker(point,markerOptions);
 		  GEvent.addListener(marker, "click", function() {
@@ -56,6 +50,12 @@
 		  });
 		  return marker;
 		}
+		
+		<% @libraries.each do |a| %>
+			info = "<div><strong><%= a.name %></strong><br><%= a.street.titleize %><br><%= a.town.titleize %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info));
+		<% end %>
       }
     }
 </script>

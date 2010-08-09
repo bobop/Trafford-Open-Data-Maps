@@ -3195,3 +3195,152 @@ Rendering template within layouts/application
 Rendering schools/index
   [4;36;1mSchool Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
 Completed in 97ms (View: 78, DB: 3) | 200 OK [http://localhost/schools]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#index (for 127.0.0.1 at 2010-08-09 16:55:56) [GET]
+Rendering template within layouts/application
+Rendering everythings/index
+Completed in 121ms (View: 118, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#index (for 127.0.0.1 at 2010-08-09 16:56:05) [GET]
+  [4;36;1mRecyclingSite Load (0.7ms)[0m   [0;1mSELECT * FROM `recycling_sites` [0m
+Rendering template within layouts/application
+Rendering recycling_sites/index
+  [4;35;1mRecyclingSite Columns (35.3ms)[0m   [0mSHOW FIELDS FROM `recycling_sites`[0m
+Completed in 66ms (View: 23, DB: 37) | 200 OK [http://localhost/recycling_sites]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-08-09 16:56:10) [GET]
+  [4;35;1mLibrary Load (0.8ms)[0m   [0mSELECT * FROM `libraries` [0m
+Rendering template within layouts/application
+Rendering libraries/index
+  [4;36;1mLibrary Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `libraries`[0m
+Completed in 42ms (View: 21, DB: 3) | 200 OK [http://localhost/libraries]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-08-09 16:56:13) [GET]
+  [4;36;1mTree Load (1146.5ms)[0m   [0;1mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering trees/index
+Completed in 1246ms (View: 90, DB: 1147) | 200 OK [http://localhost/trees]
+  [4;35;1mSQL (1.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-09 16:56:16) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (1250.3ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 500[0m
+  [4;35;1mTree Columns (148.1ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 2103ms (View: 1, DB: 1400) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#index (for 127.0.0.1 at 2010-08-09 16:56:25) [GET]
+  [4;35;1mPark Load (1.2ms)[0m   [0mSELECT * FROM `parks` [0m
+Rendering template within layouts/application
+Rendering parks/index
+  [4;36;1mPark Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `parks`[0m
+Completed in 35ms (View: 23, DB: 4) | 200 OK [http://localhost/parks]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 16:57:00) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (70.1ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 209ms (View: 131, DB: 71) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 16:57:13) [GET]
+  [4;35;1mAllotment Load (0.7ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 23ms (View: 11, DB: 4) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 16:58:03) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;35;1mAllotment Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `allotments`[0m
+Completed in 23ms (View: 12, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 16:58:56) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (19.6ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 38ms (View: 11, DB: 20) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#index (for 127.0.0.1 at 2010-08-09 16:59:01) [GET]
+  [4;36;1mPark Load (1.2ms)[0m   [0;1mSELECT * FROM `parks` [0m
+Rendering template within layouts/application
+Rendering parks/index
+  [4;35;1mPark Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `parks`[0m
+Completed in 34ms (View: 22, DB: 4) | 200 OK [http://localhost/parks]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 17:00:24) [GET]
+  [4;35;1mAllotment Load (0.8ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 29ms (View: 18, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LeisureCentresController#index (for 127.0.0.1 at 2010-08-09 17:00:27) [GET]
+  [4;36;1mLeisureCentre Load (0.4ms)[0m   [0;1mSELECT * FROM `leisure_centres` [0m
+Rendering template within layouts/application
+Rendering leisure_centres/index
+  [4;35;1mLeisureCentre Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `leisure_centres`[0m
+Completed in 66ms (View: 21, DB: 2) | 200 OK [http://localhost/leisure_centres]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-08-09 17:00:29) [GET]
+  [4;35;1mLibrary Load (0.5ms)[0m   [0mSELECT * FROM `libraries` [0m
+Rendering template within layouts/application
+Rendering libraries/index
+  [4;36;1mLibrary Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `libraries`[0m
+Completed in 28ms (View: 19, DB: 3) | 200 OK [http://localhost/libraries]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#index (for 127.0.0.1 at 2010-08-09 17:00:30) [GET]
+  [4;36;1mPark Load (1.3ms)[0m   [0;1mSELECT * FROM `parks` [0m
+Rendering template within layouts/application
+Rendering parks/index
+  [4;35;1mPark Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `parks`[0m
+Completed in 35ms (View: 23, DB: 4) | 200 OK [http://localhost/parks]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RecyclingSitesController#index (for 127.0.0.1 at 2010-08-09 17:00:33) [GET]
+  [4;35;1mRecyclingSite Load (0.6ms)[0m   [0mSELECT * FROM `recycling_sites` [0m
+Rendering template within layouts/application
+Rendering recycling_sites/index
+  [4;36;1mRecyclingSite Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+Completed in 29ms (View: 20, DB: 3) | 200 OK [http://localhost/recycling_sites]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-09 17:00:38) [GET]
+  [4;36;1mSchool Load (1.2ms)[0m   [0;1mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;35;1mSchool Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+Completed in 89ms (View: 58, DB: 3) | 200 OK [http://localhost/schools]

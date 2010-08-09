@@ -45,6 +45,7 @@ h1 {
 }
 #nav img {
 	vertical-align:top;
+	border:0px;
 }
 
 .fieldWithErrors {

@@ -41,12 +41,6 @@
 		Icon.shadow = "/images/shadow.png";
 		Icon.iconSize = new GSize(32, 37);
 		markerOptions = { icon:Icon };
-
-		<% @recycling_sites.each do |a| %>
-			info = "<div><strong><%= a.location %></strong><br><%= a.street %><br><%= a.town %><br><%= a.facilities.gsub(",",", ") %></div>";
-			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
-			map.addOverlay(createMarker(point, info));
-		<% end %>
 		
 		function createMarker(point, info) {
 		  var marker = new GMarker(point,markerOptions);
@@ -56,6 +50,12 @@
 		  });
 		  return marker;
 		}
+		
+		<% @recycling_sites.each do |a| %>
+			info = "<div><strong><%= a.location %></strong><br><%= a.street %><br><%= a.town %><br><%= a.facilities.gsub(",",", ") %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info));
+		<% end %>
       }
     }
 </script>
