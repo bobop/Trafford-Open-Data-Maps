@@ -7,6 +7,8 @@ ActionController::Routing::Routes.draw do |map|
   map.import_recycling_sites 'recycling_sites/import_data', :controller => 'recycling_sites', :action => 'import_data'
   map.import_schools 'schools/import_data', :controller => 'schools', :action => 'import_data'
   
+  map.resources :everythings
+  
   map.resources :schools
 
   map.resources :recycling_sites
@@ -53,7 +55,7 @@ ActionController::Routing::Routes.draw do |map|
   #   end
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-  # map.root :controller => "welcome"
+  map.root :controller => "everythings"
 
   # See how all your routes lay out with "rake routes"
 

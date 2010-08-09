@@ -15,5 +15,34 @@
 
 <%= yield %>
 
+<div id="content">
+	<div id="nav">
+		<%= link_to "Allotments", allotments_path %>
+		<%= link_to "Leisure Centres", leisure_centres_path %>
+		<%= link_to "Libraries", libraries_path %>
+		<%= link_to "Parks And Open Spaces", parks_path %><br>
+		<%= link_to "Recycling Centres", recycling_sites_path %>
+		<%= link_to "Schools", schools_path %>
+		<%= link_to "Highway Trees", trees_path %>
+	</div>
+
+	<p>Data from <a href="http://www.trafford.gov.uk/opendata/">Trafford Council</a>. Built by Ben Gibbs (<a href="http://bobop.co.uk">bobop</a>)</p>
+
+	<p><a href="http://www.opendatamanchester.org.uk"><img src="images/logo_sq_135.png" border="0"></a></p>
+
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-157020-23']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>

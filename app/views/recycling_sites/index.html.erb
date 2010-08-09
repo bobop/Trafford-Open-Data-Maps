@@ -1,32 +1,62 @@
-<h1>Listing recycling_sites</h1>
+<% content_for :head do %>
+<script src="http://maps.google.com/maps?file=api&v=2&key=<%= GM_API_KEY %>&sensor=false" type="text/javascript"></script>
+<script type="text/javascript">
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(53.4195,-2.34), 12);
+        map.enableDoubleClickZoom();
+		map.setUIToDefault();
+		
+		var polygon = new GPolygon([
+		    new GLatLng(53.4156383315704,-2.44808181672289),
+		    new GLatLng(53.396025972945,-2.47715412890939),
+		    new GLatLng(53.3887183381705,-2.42633198894689),
+		    new GLatLng(53.3872223859577,-2.42520190917973),
+		    new GLatLng(53.3650598372721,-2.37426901429377),
+			new GLatLng(53.3671670548023,-2.33834139425356),
+			new GLatLng(53.3570706049553,-2.31263153790438),
+			new GLatLng(53.3606103471551,-2.29705536054466),
+			new GLatLng(53.3759744425155,-2.28434165361006),
+			new GLatLng(53.4113873264811,-2.31860849544517),
+			new GLatLng(53.4081115625226,-2.29627050219156),
+			new GLatLng(53.415159444634,-2.2762340089076),
+			new GLatLng(53.4223348193095,-2.27237434971313),
+			new GLatLng(53.4361049070989,-2.29869798509485),
+			new GLatLng(53.4489717860031,-2.28482892382407),
+			new GLatLng(53.4597114232768,-2.25222775591501),
+			new GLatLng(53.4725188631473,-2.26403599816272),
+			new GLatLng(53.4646483370472,-2.2804652189453),
+			new GLatLng(53.4798819955504,-2.31995957470433),
+			new GLatLng(53.47378786333,-2.3534356911503),
+			new GLatLng(53.4581584018788,-2.39491374964465),
+			new GLatLng(53.4290801979635,-2.41808497424728),
+			new GLatLng(53.4156383315704,-2.44808181672289)
+		  ], "#900", 4, 1, "#996600", 0);
+		  map.addOverlay(polygon);
+		
+		<% @recycling_sites.each do |a| %>
+			info = "<div><strong><%= a.location %></strong><br><%= a.street %><br><%= a.town %><br><%= a.facilities.gsub(",",", ") %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info));
+		<% end %>
+		
+		function createMarker(point, info) {
+		  var marker = new GMarker(point);
+		  GEvent.addListener(marker, "click", function() {
+		    var myHtml = info;
+		    map.openInfoWindowHtml(point, myHtml);
+		  });
+		  return marker;
+		}
+      }
+    }
+</script>
 
-<table>
-  <tr>
-    <th>Site</th>
-    <th>Location</th>
-    <th>Street</th>
-    <th>Town</th>
-    <th>Longitude</th>
-    <th>Latitude</th>
-    <th>Facilities</th>
-  </tr>
-
-<% @recycling_sites.each do |recycling_site| %>
-  <tr>
-    <td><%=h recycling_site.site_id %></td>
-    <td><%=h recycling_site.location %></td>
-    <td><%=h recycling_site.street %></td>
-    <td><%=h recycling_site.town %></td>
-    <td><%=h recycling_site.longitude %></td>
-    <td><%=h recycling_site.latitude %></td>
-    <td><%=h recycling_site.facilities %></td>
-    <td><%= link_to 'Show', recycling_site %></td>
-    <td><%= link_to 'Edit', edit_recycling_site_path(recycling_site) %></td>
-    <td><%= link_to 'Destroy', recycling_site, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
 <% end %>
-</table>
+<div id="content">
+	<h1>Trafford Recycling Centres</h1>
 
-<br />
+	<div id="map_canvas" style="width: 800px; height: 600px"></div>
 
-<%= link_to 'New recycling_site', new_recycling_site_path %>
+</div>
