@@ -9,6 +9,8 @@ class AllotmentsController < ApplicationController
       format.xml  { render :xml => @allotments }
     end
   end
+  
+protected
 
   # GET /allotments/1
   # GET /allotments/1.xml

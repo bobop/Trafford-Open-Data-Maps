@@ -9,6 +9,8 @@ class LibrariesController < ApplicationController
       format.xml  { render :xml => @libraries }
     end
   end
+  
+protected
 
   # GET /libraries/1
   # GET /libraries/1.xml

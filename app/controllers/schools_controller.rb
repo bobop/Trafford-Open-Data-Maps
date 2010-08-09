@@ -9,6 +9,8 @@ class SchoolsController < ApplicationController
       format.xml  { render :xml => @schools }
     end
   end
+  
+protected
 
   # GET /schools/1
   # GET /schools/1.xml

@@ -20,6 +20,8 @@ class TreesController < ApplicationController
       end
     end
   end
+  
+protected
 
   # GET /trees/1
   # GET /trees/1.xml

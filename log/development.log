@@ -2277,3 +2277,100 @@ Rendering template within layouts/application
 Rendering parks/index
   [4;36;1mPark Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `parks`[0m
 Completed in 57ms (View: 39, DB: 3) | 200 OK [http://localhost/parks]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#new (for 127.0.0.1 at 2010-08-09 15:40:29) [GET]
+  [4;36;1mPark Columns (48.2ms)[0m   [0;1mSHOW FIELDS FROM `parks`[0m
+Rendering template within layouts/application
+Rendering parks/new
+Completed in 92ms (View: 20, DB: 48) | 200 OK [http://localhost/parks/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#images to png (for 127.0.0.1 at 2010-08-09 15:40:29) [GET]
+  Parameters: {"id"=>"logo_sq_135"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, import_data, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#index (for 127.0.0.1 at 2010-08-09 15:40:34) [GET]
+  [4;35;1mAllotment Load (0.6ms)[0m   [0mSELECT * FROM `allotments` [0m
+Rendering template within layouts/application
+Rendering allotments/index
+  [4;36;1mAllotment Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+Completed in 41ms (View: 32, DB: 3) | 200 OK [http://localhost/allotments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AllotmentsController#new (for 127.0.0.1 at 2010-08-09 15:40:37) [GET]
+Rendering template within layouts/application
+Rendering allotments/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/allotments/new.html.erb:
+1: <h1>New allotment</h1>
+2: 
+3: <% form_for(@allotment) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+
+    app/views/allotments/new.html.erb:3
+
+Rendered rescues/_trace (172.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#index (for 127.0.0.1 at 2010-08-09 15:41:30) [GET]
+  [4;35;1mPark Load (1.2ms)[0m   [0mSELECT * FROM `parks` [0m
+Rendering template within layouts/application
+Rendering parks/index
+  [4;36;1mPark Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `parks`[0m
+Completed in 23ms (View: 10, DB: 4) | 200 OK [http://localhost/parks]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#show (for 127.0.0.1 at 2010-08-09 15:41:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering parks/show
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #3 of app/views/parks/show.html.erb:
+1: <p>
+2:   <b>Name:</b>
+3:   <%=h @park.name %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/parks/show.html.erb:3
+
+Rendered rescues/_trace (57.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ParksController#new (for 127.0.0.1 at 2010-08-09 15:41:42) [GET]
+Rendering template within layouts/application
+Rendering parks/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/parks/new.html.erb:
+1: <h1>New park</h1>
+2: 
+3: <% form_for(@park) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+
+    app/views/parks/new.html.erb:3
+
+Rendered rescues/_trace (57.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)

@@ -9,6 +9,8 @@ class RecyclingSitesController < ApplicationController
       format.xml  { render :xml => @recycling_sites }
     end
   end
+  
+protected
 
   # GET /recycling_sites/1
   # GET /recycling_sites/1.xml
