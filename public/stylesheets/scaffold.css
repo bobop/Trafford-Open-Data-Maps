@@ -36,10 +36,15 @@ h1 {
 	padding:5px;
 	margin-top:20px;
 }
+#nav span {
+	padding:5px 20px;
+}
 #nav a {
-	padding:5px 30px;
 	font-size:18px;
 	line-height:38px;
+}
+#nav img {
+	vertical-align:top;
 }
 
 .fieldWithErrors {

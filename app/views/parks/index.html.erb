@@ -35,6 +35,13 @@
 		  ], "#900", 4, 1, "#996600", 0);
 		  map.addOverlay(polygon);
 		
+		// Create our "tiny" marker icon
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/park-urban.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		markerOptions = { icon:Icon };
+		
 		<% @parks.each do |a| %>
 			info = "<div><strong><%= a.name %></strong><br><%= a.location %><br><%= a.park_type %></div>";
 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
@@ -42,7 +49,7 @@
 		<% end %>
 		
 		function createMarker(point, info) {
-		  var marker = new GMarker(point);
+		  var marker = new GMarker(point,markerOptions);
 		  GEvent.addListener(marker, "click", function() {
 		    var myHtml = info;
 		    map.openInfoWindowHtml(point, myHtml);

@@ -35,6 +35,13 @@
 		  ], "#900", 4, 1, "#996600", 0);
 		  map.addOverlay(polygon);
 		
+		// Create our "tiny" marker icon
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/school.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		markerOptions = { icon:Icon };
+		
 		<% @schools.each do |a| 
 			a.name = a.name.gsub(/'/, "\\\\'") %>
 			info = '<div><strong><%=h a.name %></strong><br><%=h a.school_type %><br><%= link_to(a.url, a.url)+"<br>" if a.url %><%= link_to(a.email, "mailto:"+a.email) if a.email %></div>';
@@ -43,7 +50,7 @@
 		<% end %>
 		
 		function createMarker(point, info) {
-		  var marker = new GMarker(point);
+		  var marker = new GMarker(point,markerOptions);
 		  GEvent.addListener(marker, "click", function() {
 		    var myHtml = info;
 		    map.openInfoWindowHtml(point, myHtml);
