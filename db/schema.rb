@@ -9,13 +9,39 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100809114243) do
+ActiveRecord::Schema.define(:version => 20100813213817) do
 
   create_table "allotments", :force => true do |t|
     t.string   "allotment_id"
     t.string   "ref"
     t.string   "name"
     t.string   "area"
+    t.string   "longitude"
+    t.string   "latitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "bus_stops", :force => true do |t|
+    t.string   "naptan_code"
+    t.string   "common_name"
+    t.string   "locality_name"
+    t.string   "longitude"
+    t.string   "latitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "children_centres", :force => true do |t|
+    t.integer  "centre_id"
+    t.string   "name"
+    t.string   "centre_type"
+    t.string   "location"
+    t.string   "address"
+    t.string   "town"
+    t.string   "postcode"
+    t.string   "telephone"
+    t.string   "notes"
     t.string   "longitude"
     t.string   "latitude"
     t.datetime "created_at"
@@ -53,6 +79,21 @@ ActiveRecord::Schema.define(:version => 20100809114243) do
     t.datetime "updated_at"
   end
 
+  create_table "polling_stations", :force => true do |t|
+    t.string   "ref"
+    t.integer  "prefix"
+    t.string   "ward_code"
+    t.string   "polling_district_code"
+    t.string   "ward_name"
+    t.string   "access"
+    t.string   "availability"
+    t.string   "name"
+    t.string   "longitude"
+    t.string   "latitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "recycling_sites", :force => true do |t|
     t.string   "site_id"
     t.string   "location"
@@ -73,6 +114,15 @@ ActiveRecord::Schema.define(:version => 20100809114243) do
     t.string   "school_type"
     t.string   "email"
     t.string   "url"
+    t.string   "longitude"
+    t.string   "latitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "train_stations", :force => true do |t|
+    t.string   "crs_code"
+    t.string   "name"
     t.string   "longitude"
     t.string   "latitude"
     t.datetime "created_at"

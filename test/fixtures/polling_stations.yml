@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ref: MyString
+  prefix: 1
+  ward-code: MyString
+  polling-district-code: MyString
+  ward-name: MyString
+  access: MyString
+  availability: MyString
+  name: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  ref: MyString
+  prefix: 1
+  ward-code: MyString
+  polling-district-code: MyString
+  ward-name: MyString
+  access: MyString
+  availability: MyString
+  name: MyString
+  longitude: MyString
+  latitude: MyString

@@ -1,0 +1,32 @@
+<h1>Editing bus_stop</h1>
+
+<% form_for(@bus_stop) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :naptan_code %><br />
+    <%= f.text_field :naptan_code %>
+  </p>
+  <p>
+    <%= f.label :common_name %><br />
+    <%= f.text_field :common_name %>
+  </p>
+  <p>
+    <%= f.label :locality_name %><br />
+    <%= f.text_field :locality_name %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @bus_stop %> |
+<%= link_to 'Back', bus_stops_path %>

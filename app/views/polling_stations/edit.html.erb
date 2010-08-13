@@ -1,0 +1,52 @@
+<h1>Editing polling_station</h1>
+
+<% form_for(@polling_station) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :ref %><br />
+    <%= f.text_field :ref %>
+  </p>
+  <p>
+    <%= f.label :prefix %><br />
+    <%= f.text_field :prefix %>
+  </p>
+  <p>
+    <%= f.label :ward-code %><br />
+    <%= f.text_field :ward-code %>
+  </p>
+  <p>
+    <%= f.label :polling-district-code %><br />
+    <%= f.text_field :polling-district-code %>
+  </p>
+  <p>
+    <%= f.label :ward-name %><br />
+    <%= f.text_field :ward-name %>
+  </p>
+  <p>
+    <%= f.label :access %><br />
+    <%= f.text_field :access %>
+  </p>
+  <p>
+    <%= f.label :availability %><br />
+    <%= f.text_field :availability %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @polling_station %> |
+<%= link_to 'Back', polling_stations_path %>

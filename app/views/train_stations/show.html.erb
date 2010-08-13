@@ -1,0 +1,23 @@
+<p>
+  <b>Crs code:</b>
+  <%=h @train_station.crs_code %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @train_station.name %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @train_station.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @train_station.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_train_station_path(@train_station) %> |
+<%= link_to 'Back', train_stations_path %>

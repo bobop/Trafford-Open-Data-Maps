@@ -1,4 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+  
+
+  
   map.import_trees 'trees/import_data', :controller => 'trees', :action => 'import_data'
   map.import_allotments 'allotments/import_data', :controller => 'allotments', :action => 'import_data'
   map.import_leisure_centres 'leisure_centres/import_data', :controller => 'leisure_centres', :action => 'import_data'
@@ -6,6 +9,18 @@ ActionController::Routing::Routes.draw do |map|
   map.import_parks 'parks/import_data', :controller => 'parks', :action => 'import_data'
   map.import_recycling_sites 'recycling_sites/import_data', :controller => 'recycling_sites', :action => 'import_data'
   map.import_schools 'schools/import_data', :controller => 'schools', :action => 'import_data'
+  map.import_children_centres 'children_centres/import_data', :controller => 'children_centres', :action => 'import_data'
+  map.import_polling_stations 'polling_stations/import_data', :controller => 'polling_stations', :action => 'import_data'
+  map.import_train_stations 'train_stations/import_data', :controller => 'train_stations', :action => 'import_data'
+  map.import_bus_stops 'bus_stops/import_data', :controller => 'bus_stops', :action => 'import_data'
+    
+  map.resources :bus_stops
+  
+  map.resources :train_stations
+  
+  map.resources :polling_stations
+  
+  map.resources :children_centres
   
   map.resources :everythings
   

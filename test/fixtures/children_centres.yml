@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  centre_id: 1
+  name: MyString
+  centre_type: MyString
+  location: MyString
+  address: MyString
+  town: MyString
+  postcode: MyString
+  telephone: MyString
+  notes: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  centre_id: 1
+  name: MyString
+  centre_type: MyString
+  location: MyString
+  address: MyString
+  town: MyString
+  postcode: MyString
+  telephone: MyString
+  notes: MyString
+  longitude: MyString
+  latitude: MyString

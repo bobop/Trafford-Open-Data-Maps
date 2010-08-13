@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  crs_code: MyString
+  name: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  crs_code: MyString
+  name: MyString
+  longitude: MyString
+  latitude: MyString

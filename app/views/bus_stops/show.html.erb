@@ -1,0 +1,28 @@
+<p>
+  <b>Naptan code:</b>
+  <%=h @bus_stop.naptan_code %>
+</p>
+
+<p>
+  <b>Common name:</b>
+  <%=h @bus_stop.common_name %>
+</p>
+
+<p>
+  <b>Locality name:</b>
+  <%=h @bus_stop.locality_name %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @bus_stop.longitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @bus_stop.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_bus_stop_path(@bus_stop) %> |
+<%= link_to 'Back', bus_stops_path %>

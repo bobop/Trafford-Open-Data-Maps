@@ -1,6 +1,294 @@
+<% content_for :head do %>
+<script src="http://maps.google.com/maps?file=api&v=2&key=<%= GM_API_KEY %>&sensor=false" type="text/javascript"></script>
+<script type="text/javascript">
+
+	var map = null;
+    var mgr = null;
+	var markers = new Array();
+	
+	function initialize() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(53.4195,-2.34), 12);
+        map.enableDoubleClickZoom();
+		map.setUIToDefault();
+		
+		var polygon = new GPolygon([
+		    new GLatLng(53.4156383315704,-2.44808181672289),
+		    new GLatLng(53.396025972945,-2.47715412890939),
+		    new GLatLng(53.3887183381705,-2.42633198894689),
+		    new GLatLng(53.3872223859577,-2.42520190917973),
+		    new GLatLng(53.3650598372721,-2.37426901429377),
+			new GLatLng(53.3671670548023,-2.33834139425356),
+			new GLatLng(53.3570706049553,-2.31263153790438),
+			new GLatLng(53.3606103471551,-2.29705536054466),
+			new GLatLng(53.3759744425155,-2.28434165361006),
+			new GLatLng(53.4113873264811,-2.31860849544517),
+			new GLatLng(53.4081115625226,-2.29627050219156),
+			new GLatLng(53.415159444634,-2.2762340089076),
+			new GLatLng(53.4223348193095,-2.27237434971313),
+			new GLatLng(53.4361049070989,-2.29869798509485),
+			new GLatLng(53.4489717860031,-2.28482892382407),
+			new GLatLng(53.4597114232768,-2.25222775591501),
+			new GLatLng(53.4725188631473,-2.26403599816272),
+			new GLatLng(53.4646483370472,-2.2804652189453),
+			new GLatLng(53.4798819955504,-2.31995957470433),
+			new GLatLng(53.47378786333,-2.3534356911503),
+			new GLatLng(53.4581584018788,-2.39491374964465),
+			new GLatLng(53.4290801979635,-2.41808497424728),
+			new GLatLng(53.4156383315704,-2.44808181672289)
+		  ], "#900", 4, 1, "#996600", 0);
+		  map.addOverlay(polygon);
+		
+		// Create our "tiny" marker icon
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/garden.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		markerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/train.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		trainmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/school.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		schoolmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/recycle.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		rcmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/pens.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		pollmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/park-urban.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		parkmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/library.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		libmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/fitnesscenter.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		lcmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/daycare.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		ccmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/garden.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		allmarkerOptions = { icon:Icon };
+		
+		var Icon = new GIcon(G_DEFAULT_ICON);
+		Icon.image = "/images/bus.png";
+		Icon.shadow = "/images/shadow.png";
+		Icon.iconSize = new GSize(32, 37);
+		busmarkerOptions = { icon:Icon };
+		
+		var treeIcon = new GIcon(G_DEFAULT_ICON);
+		treeIcon.image = "images/deciduous_tree.png"
+		treeIcon.shadow = "images/deciduous_tree_shadow.png"
+		treeIcon.iconSize = new GSize(50, 32);
+		treeIcon.shadowSize = new GSize(50, 32);
+		treemarkerOptions = { icon:treeIcon };
+		
+		function createMarker(point, info, icon) {
+		  var marker = new GMarker(point, icon);
+		  GEvent.addListener(marker, "click", function() {
+		    var myHtml = info;
+		    map.openInfoWindowHtml(point, myHtml);
+		  });
+		  return marker;
+		}
+		
+		<% @allotments.each do |a| %>
+			info = "<div><strong><%= a.name %></strong><br/><%= a.area %><br><%= a.ref %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, allmarkerOptions));
+		<% end %>
+		
+		<% @children_centres.each do |a| %>
+			info = "<div><strong><%= a.name %></strong><br><%= a.centre_type %><br><%= a.location+', ' if a.location %><%= a.address %>, <%= a.town %>, <%= a.postcode %><br><%= a.telephone %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, ccmarkerOptions));
+		<% end %>
+		
+		<% @leisure_centres.each do |a| %>
+			info = "<div><strong><%= a.name %></strong></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, lcmarkerOptions));
+		<% end %>
+		
+		<% @libraries.each do |a| %>
+			info = "<div><strong><%= a.name %></strong><br><%= a.street.titleize %><br><%= a.town.titleize %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, libmarkerOptions));
+		<% end %>
+		
+		<% @parks.each do |a| %>
+			info = "<div><strong><%= a.name %></strong><br><%= a.location %><br><%= a.park_type %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, parkmarkerOptions));
+		<% end %>
+		
+		<% @polling_stations.each do |a| %>
+			info = "<div><strong><%= a.name %></strong><br><%= a.ward_name %><br><%= a.access %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, pollmarkerOptions));
+		<% end %>
+		
+		<% @recycling_sites.each do |a| %>
+			info = "<div><strong><%= a.location %></strong><br><%= a.street %><br><%= a.town %><br><%= a.facilities.gsub(",",", ") %></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, rcmarkerOptions));
+		<% end %>
+		
+		<% @schools.each do |a| 
+			a.name = a.name.gsub(/'/, "\\\\'") %>
+			info = '<div><strong><%=h a.name %></strong><br><%=h a.school_type %><br><%= link_to(a.url, a.url)+"<br>" if a.url %><%= link_to(a.email, "mailto:"+a.email) if a.email %></div>';
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, schoolmarkerOptions));
+		<% end %>
+		
+		<% @train_stations.each do |a| %>
+			info = "<div><strong><%= a.name %></strong></div>";
+			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
+			map.addOverlay(createMarker(point, info, trainmarkerOptions));
+		<% end %>
+		
+		GEvent.addListener(map,"moveend",function(){updateMap();});
+		updateMap();
+      }
+    }
+
+	function updateMap() {
+      var batch = [];
+	  var bounds = map.getBounds();
+	  var southWest = bounds.getSouthWest();
+	  var northEast = bounds.getNorthEast();
+	
+	  // Send an AJAX request for our locations
+	  new Ajax.Request('trees.js', {
+	    method:'get',
+	    parameters: {ne: northEast.toUrlValue(), sw: southWest.toUrlValue()},
+	    onSuccess: function(transport){
+	  	  // Remove markers outside of our maps boundaries.
+	      if(markers.length > 0){
+	        removeMarkersOutsideOfMapBounds();
+	      }
+	      // Add our new markers to the map (unless they are already on the map.)
+	      var json = transport.responseText.evalJSON();
+	      json.each(function(i) {
+			id = i.tree.id;
+			if(!markers[id] || markers[id] == null){
+				markers[id] = createMarker(i.tree);
+				map.addOverlay(markers[id]);
+			}
+	      });      
+	    }
+	  });
+	  
+	  // Send an AJAX request for our locations
+	  new Ajax.Request('bus_stops.js', {
+	    method:'get',
+	    parameters: {ne: northEast.toUrlValue(), sw: southWest.toUrlValue()},
+	    onSuccess: function(transport){
+	  	  // Remove markers outside of our maps boundaries.
+	      if(markers.length > 0){
+	        removeMarkersOutsideOfMapBounds();
+	      }
+	      // Add our new markers to the map (unless they are already on the map.)
+	      var json = transport.responseText.evalJSON();
+	      json.each(function(i) {
+			id = i.bus_stop.id;
+			if(!markers[id] || markers[id] == null){
+				markers[id] = createBusMarker(i.bus_stop);
+				map.addOverlay(markers[id]);
+			}
+	      });      
+	    }
+	  });
+    }
+
+	function createMarkerClickHandler(marker, tree) {
+	  return function() {
+	    marker.openInfoWindowHtml(
+	      '<div><strong>' + tree.species + '</strong><br/> ' +
+	      tree.locality_name + '<br/>' + tree.district_name + '</div>'
+	    );
+	    return false;
+	  };
+	}
+
+	function createMarker(traffordtree) {
+	  var latlng = new GLatLng(traffordtree.latitude, traffordtree.longitude);
+	  var marker = new GMarker(latlng,treemarkerOptions);
+	  var handler = createMarkerClickHandler(marker, traffordtree);
+	  GEvent.addListener(marker, "click", handler);
+	  return marker;
+	}
+	
+	function createBusMarkerClickHandler(marker, bus_stop) {
+	  	if(bus_stop.naptan_code){
+			var naptan = bus_stop.naptan_code;
+		  } else {
+			var naptan = "";
+		  }
+		  return function() {
+		    marker.openInfoWindowHtml(
+		      '<div><strong>' + bus_stop.common_name + '</strong><br/> ' +
+		      bus_stop.locality_name + '<br/>' + naptan + '</div>'
+		    );
+		    return false;
+		  };
+	}
+
+	function createBusMarker(traffordtree) {
+	  var latlng = new GLatLng(traffordtree.latitude, traffordtree.longitude);
+	  var marker = new GMarker(latlng,busmarkerOptions);
+	  var handler = createBusMarkerClickHandler(marker, traffordtree);
+	  GEvent.addListener(marker, "click", handler);
+	  return marker;
+	}
+
+	function removeMarkersOutsideOfMapBounds() {
+	  for(i in markers) {
+	    if(i > 0 && markers[i] && !map.getBounds().containsLatLng(markers[i].getLatLng())) {
+	      map.removeOverlay(markers[i]);
+	      markers[i] = null;
+	    }
+	  }
+	}
+</script>
+
+<% end %>
 <div id="content">
 	<h1>Trafford Open Data</h1>
 	
 	<p>This Trafford Open Data site simply maps the locations of the services and facilities Trafford Council run or manage.</p>
+	
+	<div id="map_canvas" style="width: 800px; height: 600px"></div>
 
 </div>

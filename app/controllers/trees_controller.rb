@@ -15,7 +15,7 @@ class TreesController < ApplicationController
         left_lng = sw[1]
         right_lng = ne[1]
         
-        @trees = Tree.find(:all, :conditions => ["(latitude < ? AND latitude > ?) OR (longitude > ? AND longitude < ?)",top_lat,bottom_lat,left_lng,right_lng], :limit => 500, :order => RANDOM_TEXT)
+        @trees = Tree.find(:all, :conditions => ["(latitude < ? AND latitude > ?) OR (longitude > ? AND longitude < ?)",top_lat,bottom_lat,left_lng,right_lng], :limit => 300, :order => RANDOM_TEXT)
         render :json => @trees.to_json
       end
     end
