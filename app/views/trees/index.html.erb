@@ -121,5 +121,24 @@
 	<h1>Trafford Highways Trees</h1>
 
 	<div id="map_canvas" style="width: 800px; height: 600px"></div>
+	
+	<div id="info">
+		<div class="right_info">
+			<h2>Trees per District</h2>
+			<table>
+			<% @trees.group_by(&:district_name).each do |district, tree| %>
+				<tr><td><%= link_to district, "http://en.wikipedia.org/wiki/"+district %></td><td><%= tree.size %></td></tr>
+			<% end %>
+			</table>
+		</div>
+		<div class="left_info">
+			<h2>Number of each Species</h2>
+			<table>
+			<% @trees.group_by(&:species).each do |specie, tree| %>
+				<tr><td><%= link_to specie, "http://en.wikipedia.org/wiki/"+specie.gsub('spp.','') %></td><td><%= tree.size %></td></tr>
+			<% end %>
+			</table>
+		</div>
+	</div>
 
 </div>

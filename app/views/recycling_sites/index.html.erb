@@ -65,5 +65,29 @@
 	<h1>Trafford Recycling Centres</h1>
 
 	<div id="map_canvas" style="width: 800px; height: 600px"></div>
+	
+	<div id="info">
+		<div class="right_info">
+			<h2>What Sites Recycle</h2>
+			<table>
+				<tr><td>Paper</td><td><%= sites_with('Paper').size %></td></tr>
+				<tr><td>Glass</td><td><%= sites_with('Glass').size %></td></tr>
+				<tr><td>Cans</td><td><%= sites_with('Cans').size %></td></tr>
+				<tr><td>Plastic</td><td><%= sites_with('Plastic').size %></td></tr>
+				<tr><td>Textiles</td><td><%= sites_with('Textiles').size %></td></tr>
+				<tr><td>Shoes</td><td><%= sites_with('Shoes').size %></td></tr>
+				<tr><td>Books</td><td><%= sites_with('Books').size %></td></tr>
+				<tr><td>TetraPak</td><td><%= sites_with('TetraPak').size %></td></tr>
+			</table>
+		</div>
+		<div class="left_info">
+			<h2>Recycling Sites per Town</h2>
+			<table>
+			<% @recycling_sites.group_by(&:town).each do |town, sites| %>
+				<tr><td><%= town %></td><td><%= sites.size %></td></tr>
+			<% end %>
+			</table>
+		</div>
+	</div>
 
 </div>

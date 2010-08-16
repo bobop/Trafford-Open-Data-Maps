@@ -19,4 +19,8 @@ class EverythingsController < ApplicationController
     end
   end
   
+  def home
+    
+  end
+  
 end

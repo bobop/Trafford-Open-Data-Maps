@@ -4,7 +4,7 @@ class TreesController < ApplicationController
   def index
     respond_to do |format|
       format.html do
-        @trees = Tree.all(:limit => '100', :order => RANDOM_TEXT)
+        @trees = Tree.all
       end
       format.xml  { render :xml => @trees }
       format.js do

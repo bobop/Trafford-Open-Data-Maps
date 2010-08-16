@@ -52,7 +52,7 @@
 		}
 		
 		<% @parks.each do |a| %>
-			info = "<div><strong><%= a.name %></strong><br><%= a.location %><br><%= a.park_type %></div>";
+			info = "<div><strong><%= a.name %></strong><br><%= a.location %><br><%= a.park_type %><br><%= a.area_hectares %> hectares</div>";
 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
 			map.addOverlay(createMarker(point, info));
 		<% end %>
@@ -66,5 +66,24 @@
 	<h1>Trafford Parks And Open Spaces</h1>
 
 	<div id="map_canvas" style="width: 800px; height: 600px"></div>
+	
+	<div id="info">
+		<div class="right_info">
+			<h2>Types of Park</h2>
+			<table>
+			<% @parks.group_by(&:park_type).each do |type, parks| %>
+				<tr><td><%= type %></td><td><%= parks.size %></td></tr>
+			<% end %>
+			</table>
+		</div>
+		<div class="left_info">
+			<h2>Parks per District</h2>
+			<table>
+			<% @parks.group_by(&:location).each do |location, parks| %>
+				<tr><td><%= link_to location, "http://en.wikipedia.org/wiki/"+location, :target => "blank" %></td><td><%= parks.size %></td></tr>
+			<% end %>
+			</table>
+		</div>
+	</div>
 
 </div>

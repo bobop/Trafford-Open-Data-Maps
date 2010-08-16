@@ -53,7 +53,7 @@
 		
 		<% @schools.each do |a| 
 			a.name = a.name.gsub(/'/, "\\\\'") %>
-			info = '<div><strong><%=h a.name %></strong><br><%=h a.school_type %><br><%= link_to(a.url, a.url)+"<br>" if a.url %><%= link_to(a.email, "mailto:"+a.email) if a.email %></div>';
+			info = '<div><strong><%=h a.name %></strong><br><%=h a.school_type %><br><%= link_to(a.url, a.url)+"<br>" if a.url %><%= link_to(a.email, "mailto:"+a.email) if a.email %><br><%= link_to("Ofsted Site", "http://www.ofsted.gov.uk/oxedu_providers/full/(urn)/"+a.urn, :target => "blank") %> &nbsp; <%= link_to("EduBase Site", "http://www.edubase.gov.uk/establishment/summary.xhtml?urn="+a.urn, :target => "blank") %></div>';
 			point = new GLatLng(<%= a.latitude %>, <%= a.longitude %>);
 			map.addOverlay(createMarker(point, info));
 		<% end %>
@@ -66,5 +66,16 @@
 	<h1>Trafford Schools</h1>
 
 	<div id="map_canvas" style="width: 800px; height: 600px"></div>
+	
+	<div id="info">
+		<div class="center_info">
+			<h2>Types of Schools</h2>
+			<table>
+			<% @schools.group_by(&:school_type).each do |type, school| %>
+				<tr><td><%= type %></td><td><%= school.size %></td></tr>
+			<% end %>
+			</table>
+		</div>
+	</div>
 
 </div>
