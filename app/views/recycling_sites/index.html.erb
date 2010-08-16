@@ -84,7 +84,7 @@
 			<h2>Recycling Sites per Town</h2>
 			<table>
 			<% @recycling_sites.group_by(&:town).each do |town, sites| %>
-				<tr><td><%= town %></td><td><%= sites.size %></td></tr>
+				<tr><td><%= link_to town, "http://en.wikipedia.org/wiki/"+town, :target => "blank" %></td><td><%= sites.size %></td></tr>
 			<% end %>
 			</table>
 		</div>
