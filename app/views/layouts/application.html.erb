@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Trafford Open Data<%= ": "+controller.controller_name.titleize unless controller.controller_name.titleize == "Everythings" %></title>
+  <title>Trafford Open Data Maps<%= ": "+controller.controller_name.titleize unless controller.controller_name.titleize == "Everythings" %></title>
   <%= stylesheet_link_tag 'scaffold' %>
   <%= javascript_include_tag :defaults %>
   <%= yield :head %>
@@ -15,6 +15,10 @@
 
 <%= yield %>
 
+<div class="buttons">
+	<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftraffordopendata.heroku.com&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; width:450px; height:40px;" allowTransparency="true"></iframe>
+	<span><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></span>
+</div>
 <div id="content">
 	<div id="nav">
 		<span><%= link_to image_tag("garden.png"), allotments_path %> <%= link_to "Allotments", allotments_path %></span>
@@ -31,7 +35,9 @@
 		<span><%= link_to image_tag("markericon.png"), everythings_path %> <%= link_to "Everything!", everythings_path %></span>
 	</div>
 
-	<p>Data from <a href="http://www.trafford.gov.uk/opendata/">Trafford Council</a>. Built by <a href="http://bobop.co.uk">bobop</a></p>
+	<p>Data from <a href="http://www.trafford.gov.uk/opendata/">Trafford Council</a> imported on 12th August 2010
+		<br>Built by <a href="http://bobop.co.uk">bobop</a>
+	</p>
 
 	<p><a href="http://www.opendatamanchester.org.uk"><img src="images/logo_sq_135.png" border="0"></a></p>
 

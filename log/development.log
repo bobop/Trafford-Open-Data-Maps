@@ -10066,3 +10066,313 @@ Processing TreesController#index to js (for 127.0.0.1 at 2010-08-16 21:34:04) [G
   [4;36;1mTree Load (1737.0ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
   [4;35;1mTree Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
 Completed in 2153ms (View: 1, DB: 1740) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:50:48) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 190ms (View: 186, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:51:29) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:51:48) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:52:03) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:52:25) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:52:36) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:53:29) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:54:10) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:54:23) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:54:55) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:55:59) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:56:17) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:57:04) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:57:34) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:58:27) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:58:45) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 14:59:32) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 13ms (View: 10, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 14:59:37) [GET]
+  [4;36;1mSchool Load (26.7ms)[0m   [0;1mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;35;1mSchool Columns (45.8ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+Completed in 345ms (View: 202, DB: 73) | 200 OK [http://localhost/schools]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 15:00:18) [GET]
+  [4;35;1mSchool Load (1.0ms)[0m   [0mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;36;1mSchool Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
+Completed in 227ms (View: 215, DB: 3) | 200 OK [http://localhost/schools]
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 15:00:42) [GET]
+  [4;36;1mSchool Load (1.3ms)[0m   [0;1mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;35;1mSchool Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+Completed in 139ms (View: 126, DB: 4) | 200 OK [http://localhost/schools]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 15:01:04) [GET]
+  [4;35;1mSchool Load (1.0ms)[0m   [0mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;36;1mSchool Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
+Completed in 236ms (View: 223, DB: 3) | 200 OK [http://localhost/schools]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 15:01:29) [GET]
+  [4;36;1mSchool Load (1.1ms)[0m   [0;1mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;35;1mSchool Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+Completed in 136ms (View: 125, DB: 3) | 200 OK [http://localhost/schools]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 15:01:56) [GET]
+  [4;35;1mSchool Load (1.0ms)[0m   [0mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;36;1mSchool Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `schools`[0m
+Completed in 278ms (View: 266, DB: 3) | 200 OK [http://localhost/schools]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 15:02:15) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 15:03:34) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 15:03:47) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-08-17 15:05:17) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#index (for 127.0.0.1 at 2010-08-17 15:05:57) [GET]
+  [4;36;1mAllotment Load (50.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+  [4;35;1mChildrenCentre Load (19.0ms)[0m   [0mSELECT * FROM `children_centres` [0m
+  [4;36;1mLeisureCentre Load (2.4ms)[0m   [0;1mSELECT * FROM `leisure_centres` [0m
+  [4;35;1mLibrary Load (2.7ms)[0m   [0mSELECT * FROM `libraries` [0m
+  [4;36;1mPark Load (12.6ms)[0m   [0;1mSELECT * FROM `parks` [0m
+  [4;35;1mPollingStation Load (31.4ms)[0m   [0mSELECT * FROM `polling_stations` [0m
+  [4;36;1mRecyclingSite Load (3.0ms)[0m   [0;1mSELECT * FROM `recycling_sites` [0m
+  [4;35;1mSchool Load (0.9ms)[0m   [0mSELECT * FROM `schools` [0m
+  [4;36;1mTrainStation Load (4.0ms)[0m   [0;1mSELECT * FROM `train_stations` [0m
+  [4;35;1mTree Load (1308.1ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering everythings/index
+  [4;36;1mAllotment Columns (11.7ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+  [4;35;1mChildrenCentre Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `children_centres`[0m
+  [4;36;1mLeisureCentre Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `leisure_centres`[0m
+  [4;35;1mLibrary Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `libraries`[0m
+  [4;36;1mPark Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `parks`[0m
+  [4;35;1mPollingStation Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `polling_stations`[0m
+  [4;36;1mRecyclingSite Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+  [4;35;1mSchool Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+  [4;36;1mTrainStation Columns (3.8ms)[0m   [0;1mSHOW FIELDS FROM `train_stations`[0m
+Completed in 1895ms (View: 203, DB: 1477) | 200 OK [http://localhost/everythings]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-17 15:06:06) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (1452.5ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (33.0ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 2569ms (View: 72, DB: 1486) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#index to js (for 127.0.0.1 at 2010-08-17 15:06:08) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mBusStop Load (21.8ms)[0m   [0mSELECT * FROM `bus_stops` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mBusStop Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 453ms (View: 15, DB: 24) | 200 OK [http://localhost/bus_stops.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#index (for 127.0.0.1 at 2010-08-17 15:06:53) [GET]
+  [4;36;1mAllotment Load (0.6ms)[0m   [0;1mSELECT * FROM `allotments` [0m
+  [4;35;1mChildrenCentre Load (0.5ms)[0m   [0mSELECT * FROM `children_centres` [0m
+  [4;36;1mLeisureCentre Load (0.3ms)[0m   [0;1mSELECT * FROM `leisure_centres` [0m
+  [4;35;1mLibrary Load (0.3ms)[0m   [0mSELECT * FROM `libraries` [0m
+  [4;36;1mPark Load (1.3ms)[0m   [0;1mSELECT * FROM `parks` [0m
+  [4;35;1mPollingStation Load (1.0ms)[0m   [0mSELECT * FROM `polling_stations` [0m
+  [4;36;1mRecyclingSite Load (0.5ms)[0m   [0;1mSELECT * FROM `recycling_sites` [0m
+  [4;35;1mSchool Load (0.9ms)[0m   [0mSELECT * FROM `schools` [0m
+  [4;36;1mTrainStation Load (0.4ms)[0m   [0;1mSELECT * FROM `train_stations` [0m
+  [4;35;1mTree Load (959.7ms)[0m   [0mSELECT * FROM `trees` ORDER BY RAND() LIMIT 100[0m
+Rendering template within layouts/application
+Rendering everythings/index
+  [4;36;1mAllotment Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `allotments`[0m
+  [4;35;1mChildrenCentre Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `children_centres`[0m
+  [4;36;1mLeisureCentre Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `leisure_centres`[0m
+  [4;35;1mLibrary Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `libraries`[0m
+  [4;36;1mPark Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `parks`[0m
+  [4;35;1mPollingStation Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `polling_stations`[0m
+  [4;36;1mRecyclingSite Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `recycling_sites`[0m
+  [4;35;1mSchool Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+  [4;36;1mTrainStation Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `train_stations`[0m
+Completed in 1119ms (View: 91, DB: 985) | 200 OK [http://localhost/everythings]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-17 15:06:57) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;36;1mTree Load (1050.3ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1318ms (View: 31, DB: 1053) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#index to js (for 127.0.0.1 at 2010-08-17 15:06:59) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mBusStop Load (15.3ms)[0m   [0mSELECT * FROM `bus_stops` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mBusStop Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 401ms (View: 18, DB: 18) | 200 OK [http://localhost/bus_stops.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-08-17 15:07:12) [GET]
+  Parameters: {"ne"=>"53.480895,-2.207909", "sw"=>"53.358133,-2.482567"}
+  [4;36;1mTree Load (1226.1ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.482567' AND longitude < '-2.207909')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (5.5ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1572ms (View: 1, DB: 1232) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.207909&sw=53.358133%2C-2.482567]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BusStopsController#index to js (for 127.0.0.1 at 2010-08-17 15:07:13) [GET]
+  Parameters: {"ne"=>"53.480895,-2.207909", "sw"=>"53.358133,-2.482567"}
+  [4;35;1mBusStop Load (13.2ms)[0m   [0mSELECT * FROM `bus_stops` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.482567' AND longitude < '-2.207909')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mBusStop Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `bus_stops`[0m
+Completed in 283ms (View: 2, DB: 16) | 200 OK [http://localhost/bus_stops.js?ne=53.480895%2C-2.207909&sw=53.358133%2C-2.482567]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SchoolsController#index (for 127.0.0.1 at 2010-08-17 15:07:15) [GET]
+  [4;36;1mSchool Load (1.0ms)[0m   [0;1mSELECT * FROM `schools` [0m
+Rendering template within layouts/application
+Rendering schools/index
+  [4;35;1mSchool Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
+Completed in 172ms (View: 161, DB: 3) | 200 OK [http://localhost/schools]
