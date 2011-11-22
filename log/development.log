@@ -10376,3 +10376,252 @@ Rendering template within layouts/application
 Rendering schools/index
   [4;35;1mSchool Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `schools`[0m
 Completed in 172ms (View: 161, DB: 3) | 200 OK [http://localhost/schools]
+  [4;36;1mSQL (103.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-09-08 13:43:14) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 225ms (View: 222, DB: 103) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-09-08 13:43:18) [GET]
+  [4;36;1mTree Load (461.8ms)[0m   [0;1mSELECT * FROM `trees` [0m
+Rendering template within layouts/application
+Rendering trees/index
+  [4;35;1mTree Columns (108.9ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 1368ms (View: 362, DB: 571) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:22) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (3868.4ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (10.1ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 5292ms (View: 1, DB: 3879) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:36) [GET]
+  Parameters: {"ne"=>"53.469759,-2.237778", "sw"=>"53.408406,-2.375107"}
+  [4;36;1mTree Load (2407.0ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.469759' AND latitude > '53.408406') OR (longitude > '-2.375107' AND longitude < '-2.237778')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (18.8ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 2748ms (View: 1, DB: 2426) | 200 OK [http://localhost/trees.js?ne=53.469759%2C-2.237778&sw=53.408406%2C-2.375107]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:38) [GET]
+  Parameters: {"ne"=>"53.46419,-2.255287", "sw"=>"53.43352,-2.323952"}
+  [4;35;1mTree Load (98.9ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.46419' AND latitude > '53.43352') OR (longitude > '-2.323952' AND longitude < '-2.255287')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 516ms (View: 1, DB: 101) | 200 OK [http://localhost/trees.js?ne=53.46419%2C-2.255287&sw=53.43352%2C-2.323952]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:39) [GET]
+  Parameters: {"ne"=>"53.461405,-2.264042", "sw"=>"53.446072,-2.298374"}
+  [4;36;1mTree Load (108.4ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.461405' AND latitude > '53.446072') OR (longitude > '-2.298374' AND longitude < '-2.264042')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (15.4ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 396ms (View: 1, DB: 124) | 200 OK [http://localhost/trees.js?ne=53.461405%2C-2.264042&sw=53.446072%2C-2.298374]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:40) [GET]
+  Parameters: {"ne"=>"53.465161,-2.252326", "sw"=>"53.449829,-2.286658"}
+  [4;35;1mTree Load (86.6ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.465161' AND latitude > '53.449829') OR (longitude > '-2.286658' AND longitude < '-2.252326')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (23.8ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 382ms (View: 1, DB: 111) | 200 OK [http://localhost/trees.js?ne=53.465161%2C-2.252326&sw=53.449829%2C-2.286658]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:55) [GET]
+  Parameters: {"ne"=>"53.461712,-2.260437", "sw"=>"53.454046,-2.277603"}
+  [4;36;1mTree Load (86.3ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.461712' AND latitude > '53.454046') OR (longitude > '-2.277603' AND longitude < '-2.260437')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 579ms (View: 1, DB: 89) | 200 OK [http://localhost/trees.js?ne=53.461712%2C-2.260437&sw=53.454046%2C-2.277603]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:56) [GET]
+  Parameters: {"ne"=>"53.459987,-2.264493", "sw"=>"53.456154,-2.273076"}
+  [4;35;1mTree Load (56.1ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.459987' AND latitude > '53.456154') OR (longitude > '-2.273076' AND longitude < '-2.264493')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 335ms (View: 1, DB: 59) | 200 OK [http://localhost/trees.js?ne=53.459987%2C-2.264493&sw=53.456154%2C-2.273076]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:43:57) [GET]
+  Parameters: {"ne"=>"53.459125,-2.26652", "sw"=>"53.457208,-2.270812"}
+  [4;36;1mTree Load (47.4ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.459125' AND latitude > '53.457208') OR (longitude > '-2.270812' AND longitude < '-2.26652')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 319ms (View: 1, DB: 50) | 200 OK [http://localhost/trees.js?ne=53.459125%2C-2.26652&sw=53.457208%2C-2.270812]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:44:04) [GET]
+  Parameters: {"ne"=>"53.458706,-2.267722", "sw"=>"53.45679,-2.272013"}
+  [4;35;1mTree Load (46.4ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.458706' AND latitude > '53.45679') OR (longitude > '-2.272013' AND longitude < '-2.267722')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 394ms (View: 1, DB: 49) | 200 OK [http://localhost/trees.js?ne=53.458706%2C-2.267722&sw=53.45679%2C-2.272013]
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:44:08) [GET]
+  Parameters: {"ne"=>"53.458537,-2.268012", "sw"=>"53.45662,-2.272303"}
+  [4;36;1mTree Load (54.6ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458537' AND latitude > '53.45662') OR (longitude > '-2.272303' AND longitude < '-2.268012')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 297ms (View: 2, DB: 57) | 200 OK [http://localhost/trees.js?ne=53.458537%2C-2.268012&sw=53.45662%2C-2.272303]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:44:40) [GET]
+  Parameters: {"ne"=>"53.458943,-2.266805", "sw"=>"53.457026,-2.271096"}
+  [4;35;1mTree Load (68.6ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.458943' AND latitude > '53.457026') OR (longitude > '-2.271096' AND longitude < '-2.266805')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (40.8ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 398ms (View: 20, DB: 110) | 200 OK [http://localhost/trees.js?ne=53.458943%2C-2.266805&sw=53.457026%2C-2.271096]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:44:44) [GET]
+  Parameters: {"ne"=>"53.458891,-2.266182", "sw"=>"53.456975,-2.270474"}
+  [4;36;1mTree Load (57.5ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458891' AND latitude > '53.456975') OR (longitude > '-2.270474' AND longitude < '-2.266182')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 435ms (View: 1, DB: 60) | 200 OK [http://localhost/trees.js?ne=53.458891%2C-2.266182&sw=53.456975%2C-2.270474]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:44:54) [GET]
+  Parameters: {"ne"=>"53.458898,-2.266075", "sw"=>"53.456981,-2.270367"}
+  [4;35;1mTree Load (45.4ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.458898' AND latitude > '53.456981') OR (longitude > '-2.270367' AND longitude < '-2.266075')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (73.1ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 352ms (View: 1, DB: 119) | 200 OK [http://localhost/trees.js?ne=53.458898%2C-2.266075&sw=53.456981%2C-2.270367]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:45:05) [GET]
+  Parameters: {"ne"=>"53.458927,-2.266075", "sw"=>"53.45701,-2.270367"}
+  [4;36;1mTree Load (45.4ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458927' AND latitude > '53.45701') OR (longitude > '-2.270367' AND longitude < '-2.266075')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 283ms (View: 1, DB: 48) | 200 OK [http://localhost/trees.js?ne=53.458927%2C-2.266075&sw=53.45701%2C-2.270367]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EverythingsController#home (for 127.0.0.1 at 2010-09-08 13:45:37) [GET]
+Rendering template within layouts/application
+Rendering everythings/home
+Completed in 84ms (View: 82, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-09-08 13:45:40) [GET]
+  [4;36;1mTree Load (90.7ms)[0m   [0;1mSELECT * FROM `trees` [0m
+Rendering template within layouts/application
+Rendering trees/index
+  [4;35;1mTree Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 786ms (View: 179, DB: 93) | 200 OK [http://localhost/trees]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:45:41) [GET]
+  Parameters: {"ne"=>"53.480895,-2.202759", "sw"=>"53.358133,-2.477417"}
+  [4;35;1mTree Load (2231.5ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.480895' AND latitude > '53.358133') OR (longitude > '-2.477417' AND longitude < '-2.202759')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 2649ms (View: 1, DB: 2234) | 200 OK [http://localhost/trees.js?ne=53.480895%2C-2.202759&sw=53.358133%2C-2.477417]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 13:47:05) [GET]
+  Parameters: {"ne"=>"53.458936,-2.267266", "sw"=>"53.45702,-2.271557"}
+  [4;36;1mTree Load (45.4ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458936' AND latitude > '53.45702') OR (longitude > '-2.271557' AND longitude < '-2.267266')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 282ms (View: 1, DB: 48) | 200 OK [http://localhost/trees.js?ne=53.458936%2C-2.267266&sw=53.45702%2C-2.271557]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:05) [GET]
+  Parameters: {"ne"=>"53.458478,-2.268248", "sw"=>"53.45752,-2.270393"}
+  [4;35;1mTree Load (117.0ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.458478' AND latitude > '53.45752') OR (longitude > '-2.270393' AND longitude < '-2.268248')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 635ms (View: 31, DB: 119) | 200 OK [http://localhost/trees.js?ne=53.458478%2C-2.268248&sw=53.45752%2C-2.270393]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:06) [GET]
+  Parameters: {"ne"=>"53.458249,-2.268738", "sw"=>"53.45777,-2.269811"}
+  [4;36;1mTree Load (47.9ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458249' AND latitude > '53.45777') OR (longitude > '-2.269811' AND longitude < '-2.268738')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 146ms (View: 1, DB: 50) | 200 OK [http://localhost/trees.js?ne=53.458249%2C-2.268738&sw=53.45777%2C-2.269811]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:09) [GET]
+  Parameters: {"ne"=>"53.458478,-2.268248", "sw"=>"53.45752,-2.270393"}
+  [4;35;1mTree Load (74.3ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.458478' AND latitude > '53.45752') OR (longitude > '-2.270393' AND longitude < '-2.268248')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 398ms (View: 1, DB: 77) | 200 OK [http://localhost/trees.js?ne=53.458478%2C-2.268248&sw=53.45752%2C-2.270393]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:10) [GET]
+  Parameters: {"ne"=>"53.458936,-2.267266", "sw"=>"53.45702,-2.271557"}
+  [4;36;1mTree Load (79.9ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458936' AND latitude > '53.45702') OR (longitude > '-2.271557' AND longitude < '-2.267266')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (9.6ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 361ms (View: 1, DB: 90) | 200 OK [http://localhost/trees.js?ne=53.458936%2C-2.267266&sw=53.45702%2C-2.271557]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:10) [GET]
+  Parameters: {"ne"=>"53.459853,-2.265297", "sw"=>"53.45602,-2.27388"}
+  [4;35;1mTree Load (55.0ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.459853' AND latitude > '53.45602') OR (longitude > '-2.27388' AND longitude < '-2.265297')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 456ms (View: 1, DB: 58) | 200 OK [http://localhost/trees.js?ne=53.459853%2C-2.265297&sw=53.45602%2C-2.27388]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:11) [GET]
+  Parameters: {"ne"=>"53.461686,-2.26136", "sw"=>"53.45402,-2.278526"}
+  [4;36;1mTree Load (90.8ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.461686' AND latitude > '53.45402') OR (longitude > '-2.278526' AND longitude < '-2.26136')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 527ms (View: 1, DB: 94) | 200 OK [http://localhost/trees.js?ne=53.461686%2C-2.26136&sw=53.45402%2C-2.278526]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:14) [GET]
+  Parameters: {"ne"=>"53.459853,-2.265286", "sw"=>"53.45602,-2.27387"}
+  [4;35;1mTree Load (66.3ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.459853' AND latitude > '53.45602') OR (longitude > '-2.27387' AND longitude < '-2.265286')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 410ms (View: 1, DB: 69) | 200 OK [http://localhost/trees.js?ne=53.459853%2C-2.265286&sw=53.45602%2C-2.27387]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:14) [GET]
+  Parameters: {"ne"=>"53.458936,-2.26725", "sw"=>"53.45702,-2.271541"}
+  [4;36;1mTree Load (53.6ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458936' AND latitude > '53.45702') OR (longitude > '-2.271541' AND longitude < '-2.26725')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (8.0ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 482ms (View: 1, DB: 62) | 200 OK [http://localhost/trees.js?ne=53.458936%2C-2.26725&sw=53.45702%2C-2.271541]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:16) [GET]
+  Parameters: {"ne"=>"53.458478,-2.268232", "sw"=>"53.45752,-2.270377"}
+  [4;35;1mTree Load (48.1ms)[0m   [0mSELECT * FROM `trees` WHERE ((latitude < '53.458478' AND latitude > '53.45752') OR (longitude > '-2.270377' AND longitude < '-2.268232')) ORDER BY RAND() LIMIT 300[0m
+  [4;36;1mTree Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 224ms (View: 1, DB: 50) | 200 OK [http://localhost/trees.js?ne=53.458478%2C-2.268232&sw=53.45752%2C-2.270377]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index to js (for 127.0.0.1 at 2010-09-08 14:33:17) [GET]
+  Parameters: {"ne"=>"53.458249,-2.268722", "sw"=>"53.45777,-2.269795"}
+  [4;36;1mTree Load (59.6ms)[0m   [0;1mSELECT * FROM `trees` WHERE ((latitude < '53.458249' AND latitude > '53.45777') OR (longitude > '-2.269795' AND longitude < '-2.268722')) ORDER BY RAND() LIMIT 300[0m
+  [4;35;1mTree Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `trees`[0m
+Completed in 317ms (View: 1, DB: 62) | 200 OK [http://localhost/trees.js?ne=53.458249%2C-2.268722&sw=53.45777%2C-2.269795]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TreesController#index (for 127.0.0.1 at 2010-09-08 16:04:53) [GET]
+  [4;35;1mTree Load (150.2ms)[0m   [0mSELECT * FROM `trees` [0m
+Rendering template within layouts/application
+Rendering trees/index
+  [4;36;1mTree Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `trees`[0m
+Completed in 744ms (View: 180, DB: 153) | 200 OK [http://localhost/trees]
