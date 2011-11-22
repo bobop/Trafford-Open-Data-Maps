@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Trafford Open Data Maps<%= ": "+controller.controller_name.titleize unless controller.controller_name.titleize == "Everythings" %></title>
+  <title>Locations and Facilities in Trafford<%= ": "+controller.controller_name.titleize unless controller.controller_name.titleize == "Everythings" %></title>
   <%= stylesheet_link_tag 'scaffold' %>
   <%= javascript_include_tag :defaults %>
   <%= yield :head %>
@@ -35,11 +35,9 @@
 		<span><%= link_to image_tag("markericon.png"), everythings_path %> <%= link_to "Everything!", everythings_path %></span>
 	</div>
 
-	<p>Data from <a href="http://www.trafford.gov.uk/opendata/">Trafford Council</a> imported on 12th August 2010
+	<p>Data from <a href="http://www.trafford.gov.uk/opendata/">Trafford Council</a>
 		<br>Built by <a href="http://bobop.co.uk">bobop</a>
 	</p>
-
-	<p><a href="http://www.opendatamanchester.org.uk"><img src="images/logo_sq_135.png" border="0"></a></p>
 
 </div>
 <script type="text/javascript">
